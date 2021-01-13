@@ -472,6 +472,18 @@
                 { "Label": "Principal", "Name": "Jennifer Larocque", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Jeff Barrett", "SortOrder": 2 }
             ]
+        },
+        {
+            "Name": "Living Sky School Division",
+            "LatLong": "52.764540,-108.280950",
+            "Address": "509 Pioneer Ave",
+            "City": "North Battleford",
+            "Province": "SK",
+            "PostalCode": "S9A 4A5",
+            "Phone": "306-937-7702",
+            "Email": "office@lskysd.ca",
+            "Url": "livingskysd.ca",
+            "Tags": ["LSSD", "LSKYSD", "Division Office", "Office"]
         }
     ]
 }
