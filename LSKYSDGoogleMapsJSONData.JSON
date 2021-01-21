@@ -47,7 +47,7 @@
             "Email": "lssdvirtual@lskysd.ca",
             "Grades": "K-12",
             "Url": "virtual.livingskysd.ca",
-            "Tags": [ "Battleford", "Cando", "Cut Knife", "Hafford", "Kerrobert", "Leoville", "Luseland", "Macklin", "Maymont", "North Battleford", "Spiritwood", "Unity", "Wilkie", "Virtual", "Elementary", "High School", "LSSD Virtual" ],
+            "Tags": [ "North Battleford", "Virtual", "Elementary", "High School", "LSSD Virtual" ],
             "Contacts": [
                 { "Label": "Principal", "Name": "Sarah L'Hoir", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Carlo Hansen", "SortOrder": 2 }
@@ -108,7 +108,7 @@
         {
             "Code": "5850904",
             "Name": "North Battleford Comprehensive High School",
-            "LatLong": "52.7817261,-108.2844687",
+            "LatLong": "52.782886195534026, -108.28564832213688",
             "Address": "1791 110th Street",
             "City": "North Battleford",
             "Province": "SK",
@@ -196,7 +196,7 @@
         {
             "Code": "4410223",
             "Name": "Kerrobert Composite School",
-            "LatLong": "51.9143568,-109.1363867",
+            "LatLong": "51.9136066158487, -109.13485365895268",
             "Address": "115 Alberta Avenue",
             "City": "Kerrobert",
             "Province": "SK",
@@ -338,7 +338,7 @@
         {
             "Code": "5810713",
             "Name": "Maymont Central School",
-            "LatLong": "52.564022,-107.7047816",
+            "LatLong": "52.56391113621881, -107.70406293009664",
             "Address": "200 1st Street East",
             "City": "Maymont",
             "Province": "SK",
@@ -425,7 +425,7 @@
         {
             "Code": "5010213",
             "Name": "Cando Community School",
-            "LatLong": "52.3713586,-108.2163658",
+            "LatLong": "52.37095076196527, -108.21472704030785",
             "Address": "201 7th Street",
             "City": "Cando",
             "Province": "SK",
