@@ -21,7 +21,7 @@
         {
             "Code": "5850958",
             "Name": "Norman Carter School",
-            "LatLong": "52.40572,-108.702747",
+            "LatLong": "52.40570026989581, -108.702903640555",
             "Address": "202 7th Avenue East",
             "City": "Wilkie",
             "Province": "SK",
@@ -56,7 +56,7 @@
         {
             "Code": "6694003",
             "Name": "Meadow Lake Christian Academy",
-            "LatLong": "54.121493,-108.430621",
+            "LatLong": "54.12148520558656, -108.43063141527921",
             "Address": "208 9th Avenue East",
             "City": "Meadow Lake",
             "Province": "SK",
@@ -90,7 +90,7 @@
         {
             "Code": "5910923",
             "Name": "McLurg High School",
-            "LatLong": "52.4079351, -108.7067638",
+            "LatLong": "52.40666747658437, -108.70230810451795",
             "Address": "202 5th Avenue",
             "City": "Wilkie",
             "Province": "SK",
@@ -127,7 +127,7 @@
         {
             "Code": "5894003",
             "Name": "Heritage Christian School",
-            "LatLong": "52.7341241,-108.3012363",
+            "LatLong": "52.73378129487609, -108.3022662952385",
             "Address": "11 20th Street",
             "City": "Battleford",
             "Province": "SK",
@@ -162,7 +162,7 @@
         {
             "Code": "5910313",
             "Name": "Hillsvale Colony School",
-            "LatLong": "52.747843,-109.0206088",
+            "LatLong": "52.838390178157205, -109.19697430977087",
             "Address": "Box 368",
             "City": "Cut Knife",
             "Province": "SK",
@@ -214,7 +214,7 @@
         {
             "Code": "6410513",
             "Name": "Medstead Central School",
-            "LatLong": "53.2981303,-108.0834595",
+            "LatLong": "53.29862466588818, -108.0830527463989",
             "Address": "219 2nd Ave",
             "City": "Medstead",
             "Province": "SK",
@@ -373,7 +373,7 @@
         {
             "Code": "5911113",
             "Name": "Scott Colony School",
-            "LatLong": "52.4437324,-109.1583194",
+            "LatLong": "52.32146178775546, -108.88215478724108",
             "Address": "Box 1510",
             "City": "Unity",
             "Province": "SK",
@@ -442,7 +442,7 @@
         {
             "Code": "5911011",
             "Name": "Lakeview Colony School",
-            "LatLong": "52.4437324,-109.1583194",
+            "LatLong": "52.27017067874112, -109.01165692270665",
             "Address": "Box 366",
             "City": "Unity",
             "Province": "SK",
@@ -458,7 +458,7 @@
         {
             "Code": "5910123",
             "Name": "Cut Knife Community School",
-            "LatLong": "52.7450548,-109.0139418",
+            "LatLong": "52.74446368707708, -109.01381516237232",
             "Address": "200 Arthur Street",
             "City": "Cut Knife",
             "Province": "SK",
@@ -474,6 +474,23 @@
             ]
         },
         {
+            "Code": "5810221",
+            "Name": "St. Vital School",
+            "LatLong": "52.737487883343356, -108.31380848127499",
+            "Address": "332 23rd Street West",
+            "City": "Battleford",
+            "Province": "SK",
+            "PostalCode": "S0M 0E0",
+            "Phone": "306-937-2233",
+            "Email": "stvial@lskysd.ca",
+            "Grades": "PK-7",
+            "Url": "stvital.livingskysd.ca",
+            "Tags": ["Battleford", "Elementary", "Pre-K", "St. Vital", "St. Vital School", "STV"],
+            "Contacts": [
+                { "Label": "Principal", "Name": "Natasha Nichol", "SortOrder": 1 }                 
+            ]
+        },   
+        {
             "Name": "Living Sky School Division",
             "LatLong": "52.764540,-108.280950",
             "Address": "509 Pioneer Ave",
@@ -487,3 +504,4 @@
         }
     ]
 }
+7
