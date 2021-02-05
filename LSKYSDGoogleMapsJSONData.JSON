@@ -47,7 +47,7 @@
             "Email": "lssdvirtual@lskysd.ca",
             "Grades": "K-12",
             "Url": "virtual.livingskysd.ca",
-            "Tags": ["All LSKYSD Schools",  "Battleford", "Cando", "Cut Knife", "Hafford", "Kerrobert", "Leoville", "Luseland", "Macklin", "Maymont", "North Battleford", "Spiritwood", "Unity", "Wilkie", "Virtual", "Elementary", "High School", "LSSD Virtual" ],
+            "Tags": [ "All LSKYSD Schools", "North Battleford", "Virtual", "Elementary", "High School", "LSSD Virtual" ],
             "Contacts": [
                 { "Label": "Principal", "Name": "Sarah L'Hoir", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Carlo Hansen", "SortOrder": 2 }
