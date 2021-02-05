@@ -12,7 +12,7 @@
             "Email": "mckitrick@lskysd.ca",
             "Grades": "PK-6",
             "Url": "mckitrick.livingskysd.ca",
-            "Tags": ["North Battleford", "Elementary", "Pre-K", "McKitrick"],
+            "Tags": ["All LSKYSD Schools", "North Battleford", "Elementary", "Pre-K", "McKitrick"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Amanda Risling", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Rachel Florence", "SortOrder": 2 }
@@ -30,7 +30,7 @@
             "Email": "nc@lskysd.ca",
             "Grades": "k-6",
             "Url": "nces.livingskysd.ca",
-            "Tags": ["Wilkie", "Elementary", "Norman Carter School", "NCES"],
+            "Tags": ["All LSKYSD Schools", "Wilkie", "Elementary", "Norman Carter School", "NCES"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Brian Hargreaves", "SortOrder": 1 }
             ]
@@ -47,7 +47,7 @@
             "Email": "lssdvirtual@lskysd.ca",
             "Grades": "K-12",
             "Url": "virtual.livingskysd.ca",
-            "Tags": [ "North Battleford", "Virtual", "Elementary", "High School", "LSSD Virtual" ],
+            "Tags": ["All LSKYSD Schools",  "Battleford", "Cando", "Cut Knife", "Hafford", "Kerrobert", "Leoville", "Luseland", "Macklin", "Maymont", "North Battleford", "Spiritwood", "Unity", "Wilkie", "Virtual", "Elementary", "High School", "LSSD Virtual" ],
             "Contacts": [
                 { "Label": "Principal", "Name": "Sarah L'Hoir", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Carlo Hansen", "SortOrder": 2 }
@@ -64,7 +64,7 @@
             "Phone": "306-236-5262",
             "Email": "meadowlake@lskysd.ca",
             "Grades": "K-12",
-            "Tags": ["Meadow Lake", "Elementary", "High School", "MLCA"],
+            "Tags": ["All LSKYSD Schools", "Meadow Lake", "Elementary", "High School", "MLCA"],
             "Contacts": [
                 { "Label": "Principal", "Name": "LaShonda Hidebrand", "SortOrder": 1 }
             ]
@@ -81,7 +81,7 @@
             "Email": "leoville@lskysd.ca",
             "Grades": "PK-12",
             "Url": "leoville.livingskysd.ca",
-            "Tags": ["Pre-K", "Elementary", "High School", "Leoville Central School"],
+            "Tags": ["All LSKYSD Schools", "Pre-K", "Elementary", "High School", "Leoville Central School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Adrian Poirier", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Scott Haggarty", "SortOrder": 2 }
@@ -99,7 +99,7 @@
             "Email": "mclurg@lskysd.ca",
             "Grades": "7-12",
             "Url": "mclurg.livingskysd.ca",
-            "Tags": ["High School", "McLurg High School"],
+            "Tags": ["All LSKYSD Schools", "High School", "McLurg High School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Greg Mamer", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Rhonda Head", "SortOrder": 2 }
@@ -117,7 +117,7 @@
             "Email": "nbchs@lskysd.ca",
             "Grades": "7-12",
             "Url": "nbchs.livingskysd.ca",
-            "Tags": ["North Battleford", "High School", "NBCHS", "North Battleford Comprehensive High School"],
+            "Tags": ["All LSKYSD Schools", "North Battleford", "High School", "NBCHS", "North Battleford Comprehensive High School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Jay Nichol", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Carla Bemier", "SortOrder": 2 }, 
@@ -136,7 +136,7 @@
             "Email": "heritage@lskysd.ca",
             "Grades": "K-9",
             "Url": "heritage.livingskysd.ca",
-            "Tags": ["Battleford", "Elementary", "Heritage Christian School"],
+            "Tags": ["All LSKYSD Schools", "Battleford", "Elementary", "Heritage Christian School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Gerald Wiebe", "SortOrder": 1 }
             ]
@@ -153,7 +153,7 @@
             "Email": "connaught@lskysd.ca",
             "Grades": "PK-6",
             "Url": "connaught.livingskysd.ca",
-            "Tags": ["North Battleford", "Pre-K", "Elementary", "Connaught School"],
+            "Tags": ["All LSKYSD Schools", "North Battleford", "Pre-K", "Elementary", "Connaught School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Jenifer Kahl", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Helen Germann", "SortOrder": 2 }
@@ -170,7 +170,7 @@
             "Phone": "306-398-2944",
             "Email": "hillsvale@lskysd.ca",
             "Grades": "K-9",
-            "Tags": ["Cut Knife", "Elementary", "Hillsvale Colony School"],
+            "Tags": ["All LSKYSD Schools", "Cut Knife", "Elementary", "Hillsvale Colony School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Debbie Hampson", "SortOrder": 1 }
             ]
@@ -187,7 +187,7 @@
             "Email": "lawrence@lskysd.ca",
             "Grades": "PK-6",
             "Url": "lawerence.livingskysd.ca",
-            "Tags": ["North Battleford", "Elementary", "Pre-K", "Lawrence", "Lawrence Elementary School"],
+            "Tags": ["All LSKYSD Schools", "North Battleford", "Elementary", "Pre-K", "Lawrence", "Lawrence Elementary School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Christine Gibson", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Charlene Williams", "SortOrder": 2 }
@@ -196,7 +196,7 @@
         {
             "Code": "4410223",
             "Name": "Kerrobert Composite School",
-            "LatLong": "51.9136066158487, -109.13485365895268",
+            "LatLong": "51.9143568,-109.1363867",
             "Address": "115 Alberta Avenue",
             "City": "Kerrobert",
             "Province": "SK",
@@ -205,7 +205,7 @@
             "Email": "kerrobert@lskysd.ca",
             "Grades": "K-12",
             "Url": "kerrobert.livingskysd.ca",
-            "Tags": ["Kerrobert", "High School", "Elementary", "KCS"],
+            "Tags": ["All LSKYSD Schools", "Kerrobert", "High School", "Elementary", "KCS"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Candice Kraft", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Sheila Murphy", "SortOrder": 2 }
@@ -223,7 +223,7 @@
             "Email": "meadstead@lskysd.ca",
             "Grades": "K-12",
             "Url": "meadstead.livingskysd.ca",
-            "Tags": ["Medstead", "High School", "Elementary", "Medstead Central SChool"],
+            "Tags": ["All LSKYSD Schools", "Medstead", "High School", "Elementary", "Medstead Central SChool"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Greg knot", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Stacy Hill", "SortOrder": 2 }
@@ -241,7 +241,7 @@
             "Email": "luseland@lskysd.ca",
             "Grades": "K-12",
             "Url": "luseland.livingskysd.ca",
-            "Tags": ["Luseland", "High School", "Elementary", "Luseland School"],
+            "Tags": ["All LSKYSD Schools", "Luseland", "High School", "Elementary", "Luseland School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Elliot Roellchen-Pfohl", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Sharla Knorr", "SortOrder": 2 }
@@ -259,7 +259,7 @@
             "Email": "bcs@lskysd.ca",
             "Grades": "PK-6",
             "Url": "bcs.livingskysd.ca",
-            "Tags": ["Battleford", "Elementary", "BCS", "Battleford Central School"],
+            "Tags": ["All LSKYSD Schools", "Battleford", "Elementary", "BCS", "Battleford Central School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Monique Sommerfeld", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Lindsay Charabin", "SortOrder": 2 }
@@ -277,7 +277,7 @@
             "Email": "bready@lskysd.ca",
             "Grades": "K-6",
             "Url": "bready.livingskysd.ca",
-            "Tags": ["North Battleford", "Elementary", "Bready"],
+            "Tags": ["All LSKYSD Schools", "North Battleford", "Elementary", "Bready"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Rhonda Simon", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Kim Cottini", "SortOrder": 2 }
@@ -295,7 +295,7 @@
             "Email": "uchs@lskysd.ca",
             "Grades": "7-12",
             "Url": "uchs.livingskysd.ca",
-            "Tags": ["Unity", "UCHS", "Unity Composite High School", "High School"],
+            "Tags": ["All LSKYSD Schools", "Unity", "UCHS", "Unity Composite High School", "High School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Aaron Melnyk", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Ken Parker", "SortOrder": 2 }
@@ -313,7 +313,7 @@
             "Email": "hclark@lskysd.ca",
             "Grades": "K-6",
             "Url": "hces.livingskysd.ca",
-            "Tags": ["Spiritwood", "Elementary", "Hartley Clark School", "HCES"],
+            "Tags": ["All LSKYSD Schools", "Spiritwood", "Elementary", "Hartley Clark School", "HCES"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Sandy Emke-Kish", "SortOrder": 1 }
             ]
@@ -330,7 +330,7 @@
             "Email": "hafford@lskysd.ca",
             "Grades": "K-12",
             "Url": "hafford.livingskysd.ca",
-            "Tags": ["Hafford", "Hafford Central School", "High School", "Elementary", "HCS"],
+            "Tags": ["All LSKYSD Schools", "Hafford", "Hafford Central School", "High School", "Elementary", "HCS"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Jamie Sommerfeld", "SortOrder": 1 }
             ]
@@ -338,7 +338,7 @@
         {
             "Code": "5810713",
             "Name": "Maymont Central School",
-            "LatLong": "52.56391113621881, -107.70406293009664",
+            "LatLong": "52.564022,-107.7047816",
             "Address": "200 1st Street East",
             "City": "Maymont",
             "Province": "SK",
@@ -347,7 +347,7 @@
             "Email": "maymont@lskysd.ca",
             "Grades": "PK-12",
             "Url": "maymont.livingskysd.ca",
-            "Tags": ["Maymont", "Pre-K", "High School", "Elementary", "Maymont Central School", "MCS"],
+            "Tags": ["All LSKYSD Schools", "Maymont", "Pre-K", "High School", "Elementary", "Maymont Central School", "MCS"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Bridgette Millen", "SortOrder": 1 }
             ]
@@ -364,7 +364,7 @@
             "Email": "ups@lskysd.ca",
             "Grades": "PK-6",
             "Url": "ups.livingskysd.ca",
-            "Tags": ["Unity", "Pre-K", "Elementary", "UPS", "Unity Public School"],
+            "Tags": ["All LSKYSD Schools", "Unity", "Pre-K", "Elementary", "UPS", "Unity Public School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Karalyn Brown", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Graeme Gieni", "SortOrder": 2 }
@@ -382,7 +382,7 @@
             "Email": "scott@lskysd.ca",
             "Grades": "K-9",
             "Url": "scott.livingskysd.ca",
-            "Tags": ["Unity", "Elementary", "Scott Colony School"],
+            "Tags": ["All LSKYSD Schools", "Unity", "Elementary", "Scott Colony School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Janette Huber", "SortOrder": 1 }
             ]
@@ -399,7 +399,7 @@
             "Email": "macklin@lskysd.ca",
             "Grades": "PK-12",
             "Url": "macklin.livingskysd.ca",
-            "Tags": ["Battleford", "Pre-K", "Elementary", "High School", "Macklin School"],
+            "Tags": ["All LSKYSD Schools", "Battleford", "Pre-K", "Elementary", "High School", "Macklin School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Eldon Germann", "SortOrder": 1 }
             ]
@@ -416,7 +416,7 @@
             "Email": "shs@lskysd.ca",
             "Grades": "7-12",
             "Url": "shs.livingskysd.ca",
-            "Tags": ["Spiritwood", "SHS", "Spiritwood High School", "High School"],
+            "Tags": ["All LSKYSD Schools", "Spiritwood", "SHS", "Spiritwood High School", "High School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Susan Fry", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Sandy Emke-Kish", "SortOrder": 2 }
@@ -434,7 +434,7 @@
             "Email": "cando@lskysd.ca",
             "Grades": "K-12",
             "Url": "cando.livingskysd.ca",
-            "Tags": ["Cando", "Elementary", "High School", "CKCS", "Cando Community School"],
+            "Tags": ["All LSKYSD Schools", "Cando", "Elementary", "High School", "CKCS", "Cando Community School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Sarah L'Hoir", "SortOrder": 1 }
             ]
@@ -450,7 +450,7 @@
             "Phone": "306-247-2050",
             "Email": "lakeview@lskysd.ca",
             "Grades": "K-9",
-            "Tags": ["Unity", "Elementary", "Lakeview Colony School"],
+            "Tags": ["All LSKYSD Schools", "Unity", "Elementary", "Lakeview Colony School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Michelle Brown-McLean", "SortOrder": 1 }
             ]
@@ -467,7 +467,7 @@
             "Email": "ckcs@lskysd.ca",
             "Grades": "PK-12",
             "Url": "ckcs.livingskysd.ca",
-            "Tags": ["Cut Knife", "Elementary", "High School", "Pre-K", "Cut Knife Community School", "CKCS"],
+            "Tags": ["All LSKYSD Schools", "Cut Knife", "Elementary", "High School", "Pre-K", "Cut Knife Community School", "CKCS"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Jennifer Larocque", "SortOrder": 1 }, 
                 { "Label": "Vice Principal", "Name": "Jeff Barrett", "SortOrder": 2 }
@@ -485,7 +485,7 @@
             "Email": "stvial@lskysd.ca",
             "Grades": "PK-7",
             "Url": "stvital.livingskysd.ca",
-            "Tags": ["Battleford", "Elementary", "Pre-K", "St. Vital", "St. Vital School", "STV"],
+            "Tags": ["All LSKYSD Schools", "Battleford", "Elementary", "Pre-K", "St. Vital", "St. Vital School", "STV"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Natasha Nichol", "SortOrder": 1 }                 
             ]
