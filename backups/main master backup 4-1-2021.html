@@ -1,0 +1,531 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{{Site.name}}</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/global.css" type="text/css" />
+<link rel="stylesheet" href="/css/styles.css" type="text/css" />    
+<link rel="stylesheet" href="/css/nav-hamburger-menu.css" type="text/css" /> 
+<link rel="stylesheet" href="/css/homepage.css" type="text/css" />    
+
+        	  
+{{#equal Site.type "central office"}}
+	<link rel="stylesheet" href="/css/divisionsite.css" type="text/css" />    
+{{/equal}}
+    
+<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+
+<script src="/scripts/optionbox.js"></script>
+
+<script src="/scripts/tweets.js"></script>
+<script src="/scripts/bundle.js"></script>
+<script src="/scripts/app.js"></script>
+{{#equal CurrentTitle "Transportation Status"}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.32/moment-timezone-with-data-10-year-range.min.js" integrity="sha512-slz1twJtg0JVoY34XV5nDu8vtwVuEnMnnJjNJx8gq/ZysGQ+NKM4UqGSzaGYeg0SftS2Hr0foXdeYNw7ELDrDQ==" crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.3.2/main.min.css" />
+    
+    {{#equal Site.type "central office"}}
+        <script src="/scripts/districtbusstatus.js" ></script>  
+    {{else}}
+        <script src="/scripts/busstatus.js" ></script>  
+    {{/equal}}
+{{/equal}}
+{{#equal CurrentTitle "App: School Finder"}}
+<link rel="stylesheet" href="/css/tagify.css" type="text/css" />
+<link rel="stylesheet" href="/css/legacy.css" type="text/css" />
+<script src="/scripts/tagify.min.js"></script>
+<script src="/scripts/schoolfinder.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj6weoX6tpF3a_IWAHueEiEjgHGqnX-Zk&callback=initializeMap&libraries=&v=weekly" defer></script>
+{{/equal}}
+{{#equal CurrentTitle "Calendar"}}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.32/moment-timezone-with-data-10-year-range.min.js" integrity="sha512-slz1twJtg0JVoY34XV5nDu8vtwVuEnMnnJjNJx8gq/ZysGQ+NKM4UqGSzaGYeg0SftS2Hr0foXdeYNw7ELDrDQ==" crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.3.2/main.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.3.2/main.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.3.2/locales-all.min.js"></script>
+<script>
+      
+$( document ).ready(function() {
+ var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth',
+      headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'dayGridMonth,timeGridWeek,timeGridDay'
+      },
+      eventSources: [
+        {
+          url: '/api/v1/event',
+          method: 'GET',
+          startParam  : 'startdate',
+          endParam    : 'enddate'
+        }
+      ],
+      eventDataTransform: function(eventData){
+        let difference = (new Date(eventData.settings.enddate) - new Date(eventData.settings.startdate)) /1000/60/60
+        let s;
+        let e;
+
+        // This implementaton does not take into consideration "All Day events of multiple length"
+        // TODO: When refactoring Events - ensure that FC can translate those "Multi All Days" into a 
+        // proper date
+        if (difference > 22.98 && difference < 23.9999) {
+            let date = new Date(eventData.settings.startdate)
+            s = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), 0, 0, 0)
+            e = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), 23, 59, 59)
+        }
+
+
+        return {
+            id: eventData.id,
+            title: eventData.title,
+            description: eventData.content,
+            start: s ? s : eventData.settings.startdate,
+            end: e ? e : eventData.settings.enddate,
+            url: eventData.route,
+            allDay:(difference > 22.98 && difference < 23.9999 ? true : false),
+            // 23.9999 is the value of a All-Day from fullCalendar
+        };
+      }
+    });
+    calendar.render();
+})    
+   
+  //});
+</script>
+    
+    
+{{/equal}}
+    <style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');</style> 
+
+
+
+<script>
+/*fixes navigation if you resize window while the nav is closed*/
+jQuery(window).on('resize', function(){     
+    if(!jQuery("#nav-primary").is(":visible") && !menu.is(':visible'))
+    {
+        menu.css({'display':''});   
+    }
+});     
+</script>   
+
+
+<!-- Google analytics - if enabled -->
+
+{{#existsJsonbFieldPath Site.Settings "googleanalytics" }}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{#siteData Site "googleanalytics"}}{{/siteData}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{#siteData Site "googleanalytics"}}{{/siteData}}');
+</script>
+{{/existsJsonbFieldPath}}
+<!-- /Google analytics - if enabled -->
+    
+    </head>
+<body id="app">
+<div id="top">
+    <!--
+    <div id="brand-textonly"><a href="/">{{ Site.Name }}</a></div>
+    -->
+
+    <!-- small brand - Mike S -->
+        <div id="brand-wrapper-small" class="container">
+            <div id="brand">
+                <a href="/">                  
+                  <div class="brand-inner-container" style="display: flex; align-items: center;">
+                    <img id="site-logo" src="/images/logo.svg" alt="Site Logo">
+                    <div style="font-family: 'Bebas Neue', cursive; text-transform: uppercase; padding-left: 10px;">
+                      <div style="font-size: 30px; letter-spacing: 1px;">{{#siteData Site "site_name_big"}}{{/siteData}}</div>
+                      <div style="font-size: 15px; letter-spacing: 1px;">{{#siteData Site "site_name_small"}}{{/siteData}}</div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+        </div>
+     <!--small brand - Mike S -->
+
+    <nav id="nav-app">
+        <!--<div id="nav-top-flex" class="container pad-side-20">-->
+        <div id="nav-top-flex" class="container pad-side-20">
+            {{#existsJsonbFieldPath Site.Settings "map_coords" }}
+            <div id="nav-contact-address">
+                <a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{#siteData Site "map_coords"}}{{/siteData}}"><img src="/images/map-marker-alt.svg" class="nav-social-icon"><div class="hide-on-small-screens">{{#siteData Site "address"}}{{/siteData}}, {{#siteData Site "city"}}{{/siteData}}, SK</div></a>
+            </div>      
+            {{/existsJsonbFieldPath}}       
+            {{#existsJsonbFieldPath Site.Settings "email" }}
+            <div id="nav-contact-address">
+                <a href="mailto:{{#siteData Site "email"}}{{/siteData}}"><img src="/images/email.svg" class="nav-social-icon"><div class="hide-on-small-screens">{{#siteData Site "email"}}{{/siteData}}</div></a>
+            </div>      
+            {{/existsJsonbFieldPath}}
+            {{#existsJsonbFieldPath Site.Settings "phone" }}
+            <div id="nav-contact-phone">
+                <a href="tel:{{#siteData Site "phone"}}{{/siteData}}"><img src="/images/phone.svg" class="nav-social-icon"><div class="hide-on-small-screens">{{#siteData Site "phone"}}{{/siteData}}</div></a>
+            </div>
+            {{/existsJsonbFieldPath}}       
+            <div id="nav-social">
+                <ul>
+                    {{#existsJsonbFieldPath Site.Settings "twitter" }}
+                    <li><a href="{{#siteData Site "twitter"}}{{/siteData}}" title="Twitter"><img src="/images/social-twitter.svg" class="nav-social-icon"></a></li>                 
+                    {{/existsJsonbFieldPath}}
+                    {{#existsJsonbFieldPath Site.Settings "facebook" }}
+                    <li><a href="{{#siteData Site "facebook"}}{{/siteData}}" title="Facebook"><img src="/images/social-facebook.svg" class="nav-social-icon"></a></li>              
+                    {{/existsJsonbFieldPath}}
+                    {{#existsJsonbFieldPath Site.Settings "instagram" }}
+                    <li><a href="{{#siteData Site "instagram"}}{{/siteData}}" title="Instagram"><img src="/images/social-instagram.svg" class="nav-social-icon"></a></li>               
+                    {{/existsJsonbFieldPath}}
+                </ul>
+            </div>
+            <div id="top-options">
+            <ul>
+                <li><a href="/transportation-status" title="Transportation"><i class="material-icons">directions_bus</i></a></li>
+                <li><a class="optionbox-trigger" data-box="op-search" title="Search"><i class="material-icons">search</i></a></li>
+                <li><a class="optionbox-trigger" data-box="op-services" title="Services"><i class="material-icons">apps</i></a></li>
+                <li><a class="optionbox-trigger" data-box="op-account"  title="My Account"><i class="material-icons">account_circle</i></a></li>
+                <li><a class="optionbox-trigger" data-box="op-settings" title="Settings"><i class="material-icons">more_vert</i></a></li>
+
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="nav-primary-toggle" class="mobile-only">
+        <a><i class="material-icons">menu</i></a>
+    </div>
+
+    
+
+    <nav id="nav-primary">
+        <!-- moving brand - Mike S 2021-01-25 -->
+        <div id="brand-wrapper" class="container">
+            <div id="brand">
+                <a href="/">                  
+                  <div style="display: flex; align-items: center;">
+                    <img id="site-logo" src="/images/logo.svg" alt="Site Logo">
+                    <div style="font-family: 'Bebas Neue', cursive; text-transform: uppercase; padding-left: 10px;">
+                      <div style="font-size: 40px; letter-spacing: 1px;">{{#siteData Site "site_name_big"}}{{/siteData}}</div>
+                      <div style="font-size: 20px; letter-spacing: 1px;">{{#siteData Site "site_name_small"}}{{/siteData}}</div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+        <!--  -->
+            <div class="menu pad-side-20">
+                <ul>
+                    <li><a href="/covid" title="Covid-19">Covid-19</a></li>
+                    <li><a href="/about" title="About">About</a></li>
+                    
+                    {{#equal Site.type "central office"}}
+                        <li><a href="https://public.lskysd.ca/files/OFFICE/Calendar/2020-21/2020-21SchoolYearCalendar_FINAL.pdf" title="Calendar">Calendar</a></li>
+					    <li><a href="https://registration.lskysd.ca/" title="Registration">Registration</a></li>
+                        <li><a href="/schools" title="Schools">Schools</a></li>
+                        <li><a href="/programs" title="Programs">Programs</a></li>                  
+                        {{#if Account.IsStaff}}
+                            <li><a href="/staff-resources" title="Staff Resources">Staff Resources</a></li>
+                        {{else}}
+                            <li><a href="/parents" title="Parent Resources">Parent Resources</a></li>                   
+                        {{/if}}
+                        <li><a href="https://www.applitrack.com/lskysd/onlineapp/" title="Careers">Careers</a></li>
+                    {{/equal}}
+                    
+                    {{#equal Site.type "other"}} 
+                        {{#equal Site.name "LSSD Virtual School"}}
+                            <!-- LSSD Virtual -->
+                            <li><a href="/programs" title="Programs">Programs</a></li>
+                            <li><a href="/guides" title="Guides">Guides</a></li>
+                            <li><a href="/parents" title="Parents">Parent Resources</a></li>
+                            <li><a href="https://registration.lskysd.ca/">Student Registration</a></li>
+                        {{/equal}}
+                    {{/equal}}
+
+                    {{#equal Site.type "elementary"}}       
+                        <li><a href="/calendar" title="Calendar">Calendar</a></li>
+                        {{#if Account.IsStaff}}
+                            <li><a href="/staff-resources" title="Staff Resources">Staff Resources</a></li>
+                        {{else}}
+                            <li><a href="/parents" title="Parent Resources">Parent Resources</a></li>                   
+                        {{/if}}
+                        <li><a href="https://registration.lskysd.ca/">Student Registration</a></li>
+                    {{/equal}}
+
+                    {{#equal Site.type "k-12 school"}}      
+                        <li><a href="/calendar" title="Calendar">Calendar</a></li>
+                        {{#if Account.IsStaff}}
+                            <li><a href="/staff-resources" title="Staff Resources">Staff Resources</a></li>
+                        {{else}}
+                            <li><a href="/parents" title="Parent Resources">Parent Resources</a></li>                   
+                        {{/if}}
+                        <li><a href="https://registration.lskysd.ca/">Student Registration</a></li>
+                    {{/equal}}
+
+                    {{#equal Site.type "high school"}}      
+                        <li><a href="/calendar" title="Calendar">Calendar</a></li>
+
+                        {{#if Account.IsStaff}}
+                            <li><a href="/staff-resources" title="Staff Resources">Staff Resources</a></li>
+                        {{else}}
+                            <li><a href="/parents" title="Parent Resources">Parent Resources</a></li>                   
+                        {{/if}}
+    
+					
+						{{#existsJsonbFieldPath Site.Settings "registration_nav" }}
+                        	<li><a href="{{#siteData Site "registration_nav"}}{{/siteData}}">Student Registration</a></li>
+                        {{/existsJsonbFieldPath}}
+
+                    {{/equal}}
+
+                </ul>
+            </div>
+        <!-- moving brand </div> -->
+    </nav>
+</div>
+    
+<div id="op-search" class="optionbox">
+    <div class="optionbox-padding">
+        {{#renderSearchBar}}{{/renderSearchBar}}
+    </div>
+</div>  
+
+<div id="op-services" class="optionbox">
+    <div class="optionbox-padding">
+            <!-- {{#equal Account.IsStaff true}} -->
+            <div class="service">
+                <a href="https://app.aesopcanada.com/login2.asp">
+                    <div class="application-icon">
+                        <img src="/images/frontline_absence_time.svg" />
+                    </div>
+                    <span>Aesop</span>
+                </a>
+            </div>
+            <div class="service">
+                <a href="https://helpdesk.lskysd.ca">
+                    <div class="application-icon">
+                        <img src="/images/service-jira.svg" />
+                    </div>
+                    <span>Helpdesk</span>
+                </a>
+            </div>
+            <div class="service">
+                <a href="https://webportal.lskysd.ca">
+                    <div class="application-icon"><img src="/images/service-odt.svg" /></div>
+                    <span>ODT Webportal</span>
+                </a>
+            </div>      
+            <!-- {{/equal}} -->
+            {{#equal Site.name "Connaught Elementary School"}}
+            <div class="service">   
+                <a href="https://connaught.livingskysd.ca/newsletter">
+                    <div class="service-icon"><img src="/images/service-smore.svg" /></div>
+                    <span>Newsletter</span>
+                </a>
+            </div>
+            {{/equal}}
+            {{#equal Site.name "Spiritwood High School"}}
+            <div class="service">   
+                <a href="https://shs.livingskysd.ca/newsletter/">
+                    <div class="service-icon"><img src="/images/service-smore.svg" /></div>
+                    <span>Newsletter</span>
+                </a>
+            </div>
+            {{/equal}}
+            <div class="service">
+                <a href="https://lssd.edsby.com/">
+                    <div class="service-icon"><img src="/images/service-edsby.svg" /></div>
+                    <span>Edsby</span>
+                </a>
+            </div>
+            <div class="service">
+                <a href="https://lskysd-my.sharepoint.com/">
+                    <div class="service-icon"><img src="/images/service-one-drive.svg" /></div>
+                    <span>OneDrive</span>
+                </a>
+            </div>
+            <div class="service">
+                <a href="https://outlook.office.com/owa/lskysd.ca">
+                    <div class="service-icon"><img src="/images/service-outlook.svg" /></div>
+                    <span>Outlook</span>
+                </a>
+            </div>
+            <div class="service">
+                <a href="https://classroom.google.com/">
+                    <div class="service-icon"><img src="/images/service-google-classroom.svg" /></div>
+                    <span>Google Classroom</span>
+                </a>
+            </div>
+            <div class="service">
+                <a href="https://classroom.edonline.sk.ca/">
+                    <div class="service-icon"><img src="/images/service-moodle.svg" /></div>
+                    <span>Moodle</span>
+                </a>
+            </div>
+                    <div class="service">
+                <a href="https://clever.com/oauth/instant-login?client_id=1a3bcfced3726d93850d&district_id=54fdddac477dea0100000079">
+                    <div class="service-icon"><img src="/images/service-seesaw.svg" /></div>
+                    <span>Seesaw</span>
+                </a>
+            </div>
+                    <div class="service">
+                <a href="https://xello.lskysd.ca/">
+                    <div class="service-icon"><img src="/images/service-xello.svg" /></div>
+                    <span>Xello</span>
+                </a>
+            </div>
+            <div class="service">
+                <a href="https://lskysd.zoom.us/">
+                    <div class="service-icon"><img src="/images/service-zoom.svg" /></div>
+                    <span>Zoom</span>
+                </a>
+            </div>
+            <div class="service">
+                <a href="https://support.lskysd.ca/">
+                    <div class="service-icon"><img src="/images/service-confluence.svg" /></div>
+                    <span>Support</span>
+                </a>
+            </div>
+            <div class="service">
+                <a href="https://lskysd.sharepoint.com/">
+                    <div class="service-icon"><img src="/images/service-sharepoint.svg" /></div>
+                    <span>SharePoint</span>
+                </a>
+            </div>
+			<div class="service">
+                <a href="https://papercut.lskysd.ca">
+                    <div class="service-icon"><img src="/images/papercut.svg" /></div>
+                    <span>Papercut</span>
+                </a>
+            </div>
+            <div class="service-footer">
+                <a href="/useful-links">All useful links</a>
+            </div>
+        </div>
+    
+    </div>
+    
+    <div id="op-account" class="optionbox">
+        <div class="optionbox-padding">
+            {{#if Account.IsCommunity}}
+            <form action="/api/v1/login" method="post">
+
+                
+                <div class="input-field">
+                {{#AzureLogin}}{{/AzureLogin}}
+                </div>
+            </form>
+            {{else}}
+                <ul>
+                    <!--
+                    <li><a href="#" class="op-close"><i class="material-icons">person_outline</i><span>My Profile</span></a></li>
+                    <li><a href="#" class="op-close"><i class="material-icons">security</i><span>Security Settings</span></a></li>
+                    <li><a href="#" class="op-close"><i class="material-icons">settings</i><span>Site Settings</span></a></li>
+                    -->
+                    <li><a href="/api/v1/logout" class="op-close"><i class="material-icons">exit_to_app</i><span>Sign Out</span></a></li>
+                </ul>
+            {{/if}}
+        </div>
+    </div>
+
+    
+    <div id="op-settings" class="optionbox">
+        <div class="optionbox-padding">
+            <ul>
+                {{#if Account.IsStaff}}
+                    <li><a class="op-close" href="https://contentmanager.imagineeverything.com" target="_blank"><i class="material-icons">edit</i><span>Manage Your Website</span></a></li>
+                {{/if}}
+                <li><a id="language" class="op-close"><i class="material-icons">translate</i><span>Translate Page</span></a></li>
+            </ul>
+        </div>
+    </div>
+    
+    {{templateContent}}
+    <br/><br/>
+    <footer>
+    <div class="container pad-vertical-20">
+        <div class="row">
+            <div class="col s0 m0 l2" id="footer-brand" class="hide-on-small-screens">
+                <a href="https://www.lskysd.ca">
+                    <img src="/images/logo-greyscale.svg" class="hide-on-small-screens" alt="Living Sky School Division - Greytone Logo" title="Living Sky School Divsion No. 202" />
+                </a>
+            </div>                
+            <div class="col s12 m12 l8">
+                <div class="row">
+                    <div id="footer-address-col1" class="col s12 m6 l6 small">
+                        <strong>{{ Site.name }}</strong><br /> 
+                        {{#existsJsonbFieldPath Site.Settings "address" }}
+                            {{#siteData Site "address"}}{{/siteData}}<br />
+                        {{/existsJsonbFieldPath}}
+                        {{#existsJsonbFieldPath Site.Settings "city" }}
+                            {{#siteData Site "city"}}{{/siteData}}, SK  {{#siteData Site "postal"}}{{/siteData}}<br />
+                        {{/existsJsonbFieldPath}}
+
+                        {{#existsJsonbFieldPath Site.Settings "country" }}
+                        {{#siteData Site "country"}}{{/siteData}}<br />
+                        {{/existsJsonbFieldPath}}
+                                
+                        {{#existsJsonbFieldPath Site.Settings "email" }}
+                            <br />              
+                            {{#siteData Site "email"}}{{/siteData}}<br />
+                        {{/existsJsonbFieldPath}}
+						
+                        {{#existsJsonbFieldPath Site.Settings "etransfer" }}
+                            <br />              
+                           E-Transfer: {{#siteData Site "etransfer"}}{{/siteData}}<br />
+                        {{/existsJsonbFieldPath}}
+
+
+                        {{#existsJsonbFieldPath Site.Settings "phone" }}                            
+                            <br/>
+                            <b>Phone:</b> {{#siteData Site "phone"}}{{/siteData}} <br />
+                        {{/existsJsonbFieldPath}}
+                        
+                        {{#existsJsonbFieldPath Site.Settings "fax" }}
+                            <b>Fax:</b> {{#siteData Site "fax"}}{{/siteData}} <br />
+                        {{/existsJsonbFieldPath}}
+                        <br/>
+                    </div>
+                    <div id="footer-address-col2" class="col s12 m6 l6 small">
+                        {{#existsJsonbFieldPath Site.Settings "address_mailing" }}
+                            <b>Mailing address:</b><br />
+                            {{#siteData Site "address_mailing"}}{{/siteData}}<br />
+                            {{#siteData Site "city"}}{{/siteData}}, SK  {{#siteData Site "postal"}}{{/siteData}}<br />
+                            {{#siteData Site "country"}}{{/siteData}}
+                            <br/>
+                        {{/existsJsonbFieldPath}}
+
+                        {{#existsJsonbFieldPath Site.Settings "officehours" }}
+                            <b>Hours of operation:</b> <br/>{{#siteData Site "officehours"}}{{/siteData}}<br/>
+                        {{/existsJsonbFieldPath}}
+
+                    </div>
+                </div>
+            </div>
+            <div id="footer-imagine-everything" class="col s2 m2 l2">
+                <a href="https://imagineeverything.com" target="_blank">
+                    <img src="/images/imagine-everything-greytone.svg" alt="Website development by Imagine Everything" title="Website development by Imagine Everything" />
+                </a>
+            </div>
+            <div id="footer-govsask" class="col s5 m2 l2">
+                <a href="https://saskatchewan.ca" target="_blank">
+                    <img src="/images/govsask.svg" alt="Government of Saskatchewan" title="Government of Saskatchewan" />
+                </a>
+            </div>
+        </div>        
+        <div style="text-align: center;" class="small"> 
+			
+            &copy; 2020 All rights reserved. All documents and images are property of the Living Sky School Division.<br /> 
+        </div>
+    </div>
+</footer>
+</body>
+</html>

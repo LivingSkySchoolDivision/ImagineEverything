@@ -1,0 +1,141 @@
+
+<!-- pagent:  KelseyTestMaster-->
+
+<!-- this section is for the bottom box, page components-->
+[
+  {
+    "name": "spotlight",
+    "title": "Branding Photo",
+    "components": [
+      {
+        "key": true,
+        "name": "spotlightCaption",
+        "type": "text",
+        "label": "Title",
+        "required": true,
+        "validate": "",
+        "maximumLength": ""
+      },
+      {
+        "key": true,
+        "name": "spotlightImage",
+        "type": "image",
+        "label": "Background Image",
+        "required": true,
+        "validate": "",
+        "maximumLength": ""
+      }
+    ],
+    "allowMultiple": false
+  }
+]
+<!-- end page components -->
+
+
+
+
+
+
+
+<section id="home-spotlight" class="spotlight-image">
+	<h1>Spotlight caption goes here</h1>
+	<img src="/images/skies-livingsky.jpg" alt="Spotlight" style="max-height: 300px; object-fit: cover;"/>
+</section>
+
+<section id="news">
+	<div class="container flex-reverse">
+		<div class="content" style="width: 100%">
+			<div class="row">
+				<div class="col s12"><h2 class="social-header">News</h2></div>
+			</div>
+			<div class="row">
+				{{#newsRender News 4 2 "" "" }}
+				<div class="col s12 m12 l3">
+					<a href="{{ route }}">
+						<div class="card small">
+							{{#each Media}}
+							<div class="card-image">
+								<img src="/images/{{ filename }}"/>
+							</div>
+							{{/each}}
+							<div class="card-content">
+								<h6 class="card-title">{{ title }}</h6>
+							</div>
+						</div>
+					</a>
+				</div>
+				  
+				{{/newsRender}}
+				
+				
+			</div>
+		</div>
+	</div>
+</section>
+<section id="section-social">
+		<div class="container pad-side">
+			<div class="row">
+				<div class="col s12"><h2 class="social-header">Social Media</h2></div>
+			</div>
+			<div class="row" id="tweet-container">
+				
+			</div>
+		</div>
+</section>
+
+<!--
+<section id="promotion" class="brand-primary">
+	<div class="container">
+		<div class="row">
+			<div class="col s12 l5 promotion-image-wrapper">
+				<img src="{{#renderJsonbFieldPath Dct "header.headlineImage" }}{{/renderJsonbFieldPath}}" class="promotion-image" />
+			</div>
+			<div class="col s12 l7">
+				<div class="promotion-headline">
+					<span class="promotion-title">{{#renderJsonbFieldPath Dct "header.title" }}{{/renderJsonbFieldPath}}</span>
+					<span class="promotion-subtitle">{{#renderJsonbFieldPath Dct "header.subtitle" }}{{/renderJsonbFieldPath}}</span>
+				</div>
+				<div class="promotion-copy">
+					<p>{{#renderJsonbFieldPath Dct "header.description" }}{{/renderJsonbFieldPath}}</p>
+				</div>
+				<div class="promotion-footer right">
+					<a href="{{#renderJsonbFieldPath Dct "header.route" }}{{/renderJsonbFieldPath}}" class="promotion-button btn icon-prefix"><i class="material-icons">chevron_right</i><span>Register with us today</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+-->
+
+<!--
+<section id="programs">
+	<div class="container sidebar-flex flex-reverse">
+		<div class="content pad-side-20">
+			<h3>Great programs, lifetime rewards.</h3>
+			<br />
+			<div class="row">
+				
+				{{#renderJsonbFieldPath Dct "program" }}
+				<div class="col s12 m12 l4">
+					<a href="{{ route }}">
+					<div class="card medium {{ emphasis }} ">
+						<div class="card-image"><img src="{{ image }}" /></div>
+						<div class="card-content">
+							<h6 class="card-title">{{ title }} </h6>
+							<p>{{ description }}</p>
+						</div>
+					</div>
+					</a>
+				</div>
+				{{/renderJsonbFieldPath}}
+			</div>
+		</div>
+		<div class="sidebar pad-side-20">
+			<h2>&nbsp;</h2>
+
+			
+		</div>
+	</div>
+</section>
+-->
+{{templateContent}}
