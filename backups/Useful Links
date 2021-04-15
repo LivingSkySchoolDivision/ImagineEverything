@@ -1,0 +1,1841 @@
+<section>
+    <div class="container pad-side">
+        <main>
+            <h1>Useful Links</h1>
+            <h3>Popular Links<h3>
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://app.aesopcanada.com/login2.asp">
+                            <div class="application-icon">
+                                <img src="/images/frontline_absence_time.svg" />
+                            </div>
+                            <span>Aesop</span>
+                        </a>
+                    </div>          
+                    <div class="col s4 m2 l1">
+                        <a href="https://helpdesk.lskysd.ca/">
+                            <div class="application-icon">
+                                <img src="/images/service-jira.svg" />
+                            </div>
+                            <span>Helpdesk</span>
+                        </a>
+                    </div>      
+                    <div class="col s4 m2 l1">
+                        <a href="https://webportal.lskysd.ca/">
+                            <div class="application-icon">
+                                <img src="/images/service-odt.svg" />
+                            </div>
+                            <span>ODT Webportal</span>
+                        </a>
+                    </div>      
+                    <div class="col s4 m2 l1">
+                        <a href="https://lssd.edsby.com/">
+                            <div class="application-icon">
+                                <img src="/images/service-edsby.svg" />
+                            </div>
+                            <span>Edsby</span>
+                        </a>
+                    </div>      
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd-my.sharepoint.com/">
+                            <div class="application-icon">
+                                <img src="/images/service-one-drive.svg" />
+                            </div>
+                            <span>Onedrive</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://outlook.office.com/owa/lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/service-outlook.svg" />
+                            </div>
+                            <span>Outlook</span>
+                        </a>
+                    </div>          
+                    <div class="col s4 m2 l1">
+                        <a href="https://classroom.google.com/">
+                            <div class="application-icon">
+                                <img src="/images/service-google-classroom.svg" />
+                            </div>
+                            <span>Google Classroom</span>
+                        </a>
+                    </div>      
+                    <div class="col s4 m2 l1">
+                        <a href="https://classroom.edonline.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/service-moodle.svg" />
+                            </div>
+                            <span>Moodle</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://papercut.lskysd.ca/">
+                            <div class="application-icon">
+                                <img src="/images/papercut.svg" />
+                            </div>
+                            <span>Papercut</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd.sharepoint.com/">
+                            <div class="application-icon">
+                                <img src="/images/service-sharepoint.svg" />
+                            </div>
+                            <span>Sharepoint</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://clever.com/oauth/instant-login?client_id=1a3bcfced3726d93850d&district_id=54fdddac477dea0100000079">
+                            <div class="application-icon">
+                                <img src="/images/service-seesaw.svg" />
+                            </div>
+                            <span>Seesaw</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://support.lskysd.ca/">
+                            <div class="application-icon">
+                                <img src="/images/service-confluence.svg" />
+                            </div>
+                            <span>Support</span>
+                        </a>
+                    </div> 
+                    <div class="col s4 m2 l1">
+                        <a href="https://xello.lskysd.ca/">
+                            <div class="application-icon">
+                                <img src="/images/service-xello.svg" />
+                            </div>
+                            <span>Xello</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd.zoom.us/">
+                            <div class="application-icon">
+                                <img src="/images/service-zoom.svg" />
+                            </div>
+                            <span>Zoom</span>
+                        </a>
+                    </div>
+        </div>  
+                
+                <!--
+                <div class="row application-icons">
+                    <h4><a href="/useful-links-detail-view" title="Useful Links Detail View">Switch to Detail View</a></h4> 
+                </div>  
+                -->
+            
+            {{#equal Account.IsStaff true}} 
+            <h3>Staff Resources</h3>
+            <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.livingskysd.ca/assessment">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>Assessment</span>
+                        </a>
+                    </div>          
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.livingskysd.ca/agreements">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>Agreements</span>
+                        </a>
+                    </div>      
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.livingskysd.ca/curriculum-connections">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>Curriculum Connections</span>
+                        </a>
+                    </div>      
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.livingskysd.ca/forms">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>Forms</span>
+                        </a>
+                    </div>      
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.livingskysd.ca/procedures">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>Procedures</span>
+                        </a>
+                    </div>
+        </div>  
+            {{else}} 
+                <p>If you are a staff member, sign into the website at the top right by clicking the <i class="material-icons">account_circle</i> icon for staff specific links to show up.</p> 
+                <form action="/api/v1/login" method="post">                
+                <div class="input-field">
+                {{#AzureLogin}}{{/AzureLogin}}
+                </div>
+            </form>
+            </br>
+            {{/equal}} 
+            
+ 
+            
+                
+                
+            {{#equal Site.name "Battleford Central School"}}
+            <h3>BCS Links</h3>
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://slz01.scholasticlearningzone.com/resources/dp-int/dist/#/login3/CANP9V5">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Bookflix</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://bcsl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>BCS L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Bready Elementary School"}}
+            <h3>Bready Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://breadyl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Bready L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Cando Community School"}}
+            <h3>Cando Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://candol4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Cando L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Connaught Elementary School"}}
+            <h3>Connaught Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://connl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Connaught L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Cut Knife Community School"}}
+            <h3>CKCS Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://ckcsl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>CKCS L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Hafford Central School"}}
+            <h3>Hafford Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://haffordl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Hafford L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Hartley Clark Elementary School"}}
+            <h3>HCES Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://hcesl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>HCES L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://wapitilibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wapiti.png" />
+                            </div>
+                            <span>Wapiti Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Heritage Christian School"}}
+            <h3>Heritage Links</h3>
+                <div class="row application-icons">
+                   <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library </span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}          
+            {{#equal Site.name "Hillsvale Colony School"}}
+            <h3>Hillsvale Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Kerrobert Composite School"}}
+            <h3>KCS Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://kcsl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>KCS L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Lakeview Colony School"}}
+            <h3>Lakeview Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Lawrence Elementary School"}}
+            <h3>Lawrence Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://lawrencel4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Lawrence L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Leoville Central School"}}
+            <h3>Leoville Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://leovillel4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Leoville L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://wapitilibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wapiti.png" />
+                            </div>
+                            <span>Wapiti Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Living Sky School Division"}}
+            <h3>DO Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://dol4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>DO L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd.sharepoint.com/sites/DivisionOffice">
+                            <div class="application-icon">
+                                <img src="/images/logo.svg" />
+                            </div>
+                            <span>DO Booking Calendars</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "LSSD Virtual School"}}
+            <h3>Leoville Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://l4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>LSSD Virtual L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://wapitilibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wapiti.png" />
+                            </div>
+                            <span>Wapiti Regional Library</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Luseland School"}}
+            <h3>Luseland Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://luselandl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Luseland L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Macklin School"}}
+            <h3>Macklin Links</h3>    
+                <div class="row application-icons">
+                    <div class="col s4 m2 l1">
+                        <a href="https://global-zone08.renaissance-go.com/welcomeportal/371747">
+                            <div class="application-icon">
+                                <img src="/images/AR.png" />
+                            </div>
+                            <span>Macklin AR</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://luselandl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Macklin L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Maymont Central School"}}
+            <h3>Maymont Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://maymontl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Maymont L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.k12.gov.sk.ca/etranscript/">
+                            <div class="application-icon">
+                                <img src="/images/transcripts.PNG" />
+                            </div>
+                            <span>Request Transcripts</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://scholartree.ca/">
+                            <div class="application-icon">
+                                <img src="/images/scholartree.jpg" />
+                            </div>
+                            <span>ScholarTree</span>
+                        </a>
+                    </div>                                        
+                </div>
+
+
+            {{/equal}}
+            {{#equal Site.name "McKitrick Community School"}}
+            <h3>McKitrick Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://mckitrickl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>McKitrick L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "McLurg High School"}}
+            <h3>McLurg Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://mclurgl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>McLurg L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Meadow Lake Christian Academy"}}
+            <h3>Meadow Lake Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Medstead Central School"}}
+            <h3>Medstead Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://medsteadl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>Medstead L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Norman Carter Elementary School"}}
+            <h3>NCES Links</h3>    
+                <div class="row application-icons">
+                    <div class="col s4 m2 l1">
+                        <a href="https://global-zone50.renaissance-go.com/welcomeportal/383785">
+                            <div class="application-icon">
+                                <img src="/images/AR.png" />
+                            </div>
+                            <span>NCES AR</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://ncesl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>NCES L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "North Battleford Comprehensive High School"}}
+            <h3>NBCHS Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://nbchsl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>NBCHS L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://go.galegroup.com/ps/start.do?p=OVIC&u=saskschnbchs">
+                            <div class="application-icon">
+                                <img src="/images/galeopposing.PNG" />
+                            </div>
+                            <span>GALE Opposing Viewpoints in Context</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://infotrac.galegroup.com/itweb/saskschnbchs?db=WHIC">
+                            <div class="application-icon">
+                                <img src="/images/galeworldhistory.PNG" />
+                            </div>
+                            <span>GALE World History In Context</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.flocabulary.com/?signup=login">
+                            <div class="application-icon">
+                                <img src="/images/Flocabulary.png" />
+                            </div>
+                            <span>Flocabulary</span>
+                        </a>
+                    </div>
+                     <div class="col s4 m2 l1">
+                        <a href="https://lskysd.sharepoint.com/sites/NBCHSStaff2/SitePages/NBCHS-Booking-Calendars.aspx">
+                            <div class="application-icon">
+                                <img src="https://nbchs.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>NBCHS - Booking Calendars</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://nbchs.livingskysd.ca/career-development">
+                            <div class="application-icon">
+                                <img src="https://nbchs.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>NBCHS - Career Development</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://nbchs.livingskysd.ca/counselling">
+                            <div class="application-icon">
+                                <img src="https://nbchs.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>NBCHS - Counselling</span>
+                        </a>
+                    </div>
+                    
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Scott Colony School"}}
+            <h3>Scott Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Spiritwood High School"}}
+            <h3>SHS Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://shsl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>SHS L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://wapitilibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wapiti.png" />
+                            </div>
+                            <span>Wapiti Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "St. Vital Catholic School"}}
+            <h3>St. Vital Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://stvitall4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>St. Vital L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lakelandlibrary.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Lakeland.png" />
+                            </div>
+                            <span>Lakeland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Unity Composite High School"}}
+            <h3>UCHS Links</h3>    
+                <div class="row application-icons">       
+                    <div class="col s4 m2 l1">
+                        <a href="https://uchsl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>UCHS L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Site.name "Unity Public School"}}
+            <h3>UPS Links</h3>    
+                <div class="row application-icons">
+                    <div class="col s4 m2 l1">
+                        <a href="https://global-zone50.renaissance-go.com/welcomeportal/383784">
+                            <div class="application-icon">
+                                <img src="/images/AR.png" />
+                            </div>
+                            <span>UPS AR</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://upsl4u.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>UPS L4U</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.wheatland.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Wheatland.png" />
+                            </div>
+                            <span>Wheatland Regional Library</span>
+                        </a>
+                    </div>
+                </div>
+            {{/equal}}
+            {{#equal Account.IsStaff true}}
+                <h3>Staff Links</h3>
+                <div class="row application-icons">
+                    <div class="col s4 m2 l1">
+                        <a href="https://app.aesopcanada.com/login2.asp">
+                            <div class="application-icon">
+                                <img src="/images/frontline_absence_time.svg" />
+                            </div>
+                            <span>Aesop</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.applitrack.com/lskysd/onlineapp/">
+                            <div class="application-icon">
+                                <img src="/images/frontline_applitrack.svg" />
+                            </div>
+                            <span>Applitrack Careers</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://assetplanner.com/logon.php?">
+                            <div class="application-icon">
+                                <img src="/images/service-assetplanner.svg" />
+                            </div>
+                            <span>Asset Planner</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://streaming.acf-film.com/audiocine/login?returnUrl=%252Faudiocine">
+                            <div class="application-icon">
+                                <img src="/images/acf.svg" />
+                            </div>
+                            <span>Audio Cine Film</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd.sharepoint.com/sites/Division/BiWeeklyBlog/">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>Biweekly Blog</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.bmospenddynamics.com/secure/welcome.asp">
+                            <div class="application-icon">
+                                <img src="/images/BMO_Spend_Dynamics.svg" />
+                            </div>
+                            <span>BMO Spend Dynamic</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://mclurgcareerguidance.blogspot.com/">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>LSKYSD Career Guidance</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.clevrcloud.ca/clevr/ADFSLogin.aspx?ADFSTenant=148">
+                            <div class="application-icon">
+                                <img src="/images/clevr.svg" />
+                            </div>
+                            <span>Clevr</span>
+                        </a>
+                    </div>
+
+
+
+
+<!-- ICS-25935 - Covid Response Info SharePoint -->
+
+{{#equal Site.Name "Battleford Central School"}}
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Battleford%20Central%20School?csf=1&web=1&e=dZgGsf">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.Name "Bready Elementary School"}}
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Bready%20Elementary%20School?csf=1&web=1&e=e9pVGl">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.Name "Cando Community School"}}
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Cando%20Community%20School?csf=1&web=1&e=Vkbf7O">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Connaught Elementary School"}}
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Connaught%20Elementary%20School?csf=1&web=1&e=dh1y6g">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Cut Knife Community School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Cut%20Knife%20Community%20School?csf=1&web=1&e=rqN2ll">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Hafford Central School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Hafford%20Central%20School?csf=1&web=1&e=7wUuGB">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Hartley Clark Elementary School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Hartley%20Clark%20Elementary%20School?csf=1&web=1&e=H11YEh">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Heritage Christian School"}}
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Heritage%20Christian%20School?csf=1&web=1&e=bUvezg">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Hillsvale Colony School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Hillsvale%20Colony%20School?csf=1&web=1&e=gFN7a5">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Kerrobert Composite School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Kerrobert%20Composite%20School?csf=1&web=1&e=v8Gsvh">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Lakeview Colony School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Lakeview%20Colony%20School?csf=1&web=1&e=4ysHQO">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Lawrence Elementary School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Lawrence%20Elementary%20School?csf=1&web=1&e=7uhfr2">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Leoville Central School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Leoville%20Central%20School?csf=1&web=1&e=cLcGXU">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "LSSD Virtual School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/LSSD%20Virtual%20School?csf=1&web=1&e=yS9shW">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Living Sky School Division"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Luseland School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Luseland%20School?csf=1&web=1&e=srzUD6">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Macklin School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Macklin%20School?csf=1&web=1&e=hB7QdM">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Maymont Central School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Maymont%20Central%20School?csf=1&web=1&e=TVYML5">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "McKitrick Community School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/McKitrick%20Community%20School?csf=1&web=1&e=sMzSzZ">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "McLurg High School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/McLurg%20High%20School?csf=1&web=1&e=i00QoP">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Meadow Lake Christian Academy"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Meadow%20Lake%20Christian%20Academy?csf=1&web=1&e=1RHxSy">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Medstead Central School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Medstead%20Central%20School?csf=1&web=1&e=JqV323">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Norman Carter Elementary School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Norman%20Carter%20Elementary%20School?csf=1&web=1&e=TjUvNs">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "North Battleford Comprehensive High School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/North%20Battleford%20Comprehensive%20High%20School?csf=1&web=1&e=0WyHbm">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Scott Colony School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Scott%20Colony%20School?csf=1&web=1&e=Y8h3b0">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Spiritwood High School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Spiritwood%20High%20School?csf=1&web=1&e=T7SHGC">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "St. Vital Catholic School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/St.%20Vital%20Catholic%20School?csf=1&web=1&e=6pkbqY">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Unity Composite High School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Unity%20Composite%20High%20School?csf=1&web=1&e=MPfYsB">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+{{#equal Site.name "Unity Public School"}} 
+<div class="col s4 m2 l1">
+   <a href="https://lskysd.sharepoint.com/:f:/r/sites/CovidResponse/Shared%20Documents/Unity%20Public%20School?csf=1&web=1&e=BuxmL0">
+      <div class="application-icon">
+         <img src="/images/service-sharepoint.svg" />
+      </div>
+      <span>Covid Response Info</span>
+   </a>
+</div>
+{{/equal}}
+
+
+
+                    
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.criterionondemand.com/">
+                            <div class="application-icon">
+                                <img src="/images/criterion.svg" />
+                            </div>
+                            <span>Criterion on Demand</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.livingskysd.ca/curriculum-connections">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>Curriculum Connections</span>
+                        </a>
+                    </div>                    
+                    <div class="col s4 m2 l1">
+                        <a href="https://guest.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>Guest Accounts</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://helpdesk.lskysd.ca/">
+                            <div class="application-icon">
+                                <img src="/images/service-jira.svg" />
+                            </div>
+                            <span>Help Desk</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd.sharepoint.com/sites/Leadership/">
+                            <div class="application-icon">
+                                <img src="/images/service-sharepoint.svg" />
+                            </div>
+                            <span>Leadership Team</span>
+                        </a>
+                    </div>   
+                    <div class="col s4 m2 l1">
+                        <a href="https://webportal.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/service-odt.svg" />
+                            </div>
+                            <span>ODT Webportal</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://papercut.lskysd.ca">
+                            <div class="application-icon">
+                                <img src="/images/papercut.svg" />
+                            </div>
+                            <span>Papercut Printing</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd-sk.safeschools.com">
+                            <div class="application-icon">
+                                <img src="/images/safeschooltraining.svg" />
+                            </div>
+                            <span>SafeSchools Training</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://asp.schoolmessenger.ca/livingsky/">
+                            <div class="application-icon">
+                                <img src="/images/schoolmessenger.svg" />
+                            </div>
+                            <span>School Messenger</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.smore.com/cgswj-come-to-our-class">
+                            <div class="application-icon">
+                                <img src="/images/service-smore.svg" />
+                            </div>
+                            <span>Smore Newsletters</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd.sharepoint.com/sites/StaffResources/SitePages/Staff-Benefits.aspx">
+                            <div class="application-icon">
+                                <img src="/images/service-sharepoint.svg" />
+                            </div>
+                            <span>Staff Benefits</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd.sharepoint.com/sites/StaffResources">
+                            <div class="application-icon">
+                                <img src="/images/service-sharepoint.svg" />
+                            </div>
+                            <span>Staff Resources SharePoint</span>
+                        </a>
+                    </div>                 
+                    <div class="col s4 m2 l1">
+                        <a href="https://wideopenschool.org/">
+                            <div class="application-icon">
+                                <img src="/images/wideopenschool.svg" />
+                            </div>
+                            <span>Wide Open Schools</span>
+                        </a>
+                    </div>
+
+                </div>
+
+                {{/equal}}
+            
+                <div class="row application-icons"> 
+                <h3>Coding</h3>         
+                    <div class="col s4 m2 l1">
+                        <a href="https://hub.callysto.ca/">
+                            <div class="application-icon">
+                                <img src="/images/Callysto.svg" />
+                            </div>
+                            <span>Callysto Coding</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.thelearningpartnership.ca/programs/coding-quest">
+                            <div class="application-icon">
+                                <img src="/images/thelearningpartnership.svg" />
+                            </div>
+                            <span>Coding Quest</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://hourofcode.com/ca">
+                            <div class="application-icon">
+                                <img src="/images/hourofcode.svg" />
+                            </div>
+                            <span>Hour of Code</span>
+                        </a>
+                    </div>                  
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.ictc-ctic.ca/">
+                            <div class="application-icon">
+                                <img src="/images/ICTC.svg" />
+                            </div>
+                            <span>ICTC</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://kidscodejeunesse.org/">
+                            <div class="application-icon">
+                                <img src="/images/kcj.svg" />
+                            </div>
+                            <span>Kids Code Jeunesse</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://saskcode.ca/">
+                            <div class="application-icon">
+                                <img src="/images/saskcode.svg" />
+                            </div>
+                            <span>Sask Code</span>
+                        </a>
+                    </div>                  
+                    <div class="col s4 m2 l1">
+                        <a href="https://scratch.mit.edu/">
+                            <div class="application-icon">
+                                <img src="/images/scratch.svg" />
+                            </div>
+                            <span>Scratch Coding</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://clever.com/oauth/instant-login?client_id=797e11558015c3bc2777&district_id=54fdddac477dea0100000079">
+                            <div class="application-icon">
+                                <img src="/images/tynker.svg" />
+                            </div>
+                            <span>Tynker</span>
+                        </a>
+                    </div>
+                </div>
+                <h3>Collaboration</h3>
+                <div class="row application-icons">
+                    <div class="col s4 m2 l1">
+                        <a href="https://auth.flipgrid.com/educator?redirect_url=https%3A%2F%2Fadmin.flipgrid.com%2Fmanage">
+                            <div class="application-icon">
+                                <img src="/images/Flipgrid.svg" />
+                            </div>
+                            <span>Flipgrid</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://meet.google.com/">
+                            <div class="application-icon">
+                                <img src="/images/Google_Meet.svg" />
+                            </div>
+                            <span>Google Meet</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://teams.microsoft.com">
+                            <div class="application-icon">
+                                <img src="/images/service-microsoft-teams.svg" />
+                            </div>
+                            <span>Teams</span>
+                        </a>
+                    </div>
+                </div>
+                <h3>Design and Drafting</h3>
+                <div class="row application-icons"> 
+                    <div class="col s4 m2 l1">
+                        <a href="https://creativecloud.adobe.com/#">
+                            <div class="application-icon">
+                                <img src="/images/service-adobecc.svg" />
+                            </div>
+                            <span>Adobe Creative Cloud</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.autodesk.com/education/home">
+                            <div class="application-icon">
+                                <img src="/images/service-autodesk_logo_a_only.svg" />
+                            </div>
+                            <span>Autodesk</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://accounts.autodesk.com/Authentication/Landing?ReturnUrl=%2Fauthorize%3Fviewmode%3Diframe%26lang%3Den-US%26realm%3D%252A.tinkercad.com%26ctx%3Dtinkercad%26authtype%3Dsocialoradsk%26socialproviderpref%3DFB%2CGO%2CYH%2CWL%2CAP%26AuthKey%3D2c919ea7-0694-4eed-ab6f-c8f740fe3cff#social">
+                            <div class="application-icon">
+                                <img src="/images/tinkercad.svg" />
+                            </div>
+                            <span>TinkerCAD</span>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Literacy</h3>
+                <div class="row application-icons"> 
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.getepic.com/sign-in/educator">
+                            <div class="application-icon">
+                                <img src="/images/epic.svg" />
+                            </div>
+                            <span>Epic!</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.bibme.org/">
+                            <div class="application-icon">
+                                <img src="/images/bibme.png" />
+                            </div>
+                            <span>BibMe</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://stories.audible.com/discovery">
+                            <div class="application-icon">
+                                <img src="/images/audible.svg" />
+                            </div>
+                            <span>Audible Stories</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://clever.com/oauth/instant-login?client_id=49af698bbfc653bd8189&district_id=54fdddac477dea0100000079">
+                            <div class="application-icon">
+                                <img src="/images/sora.svg" />
+                            </div>
+                            <span>Sora (Overdrive)</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://clever.com/oauth/instant-login?client_id=b622ee8191c662d7573d&district_id=54fdddac477dea0100000079">
+                            <div class="application-icon">
+                                <img src="/images/newsela.svg" />
+                            </div>
+                            <span>NewsELA</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://my.mediasmarts.ca/en">
+                            <div class="application-icon">
+                                <img src="/images/mediasmarts.svg" />
+                            </div>
+                            <span>Media Smarts</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://my.mediasmarts.ca/teacher-resources">
+                            <div class="application-icon">
+                                <img src="/images/MediaSmartsTeacher.png" />
+                            </div>
+                            <span>Media Smarts Teacher Resources</span>
+                        </a>
+                    </div>                      
+                    <div class="col s4 m2 l1">
+                        <a href="https://accounts.learninga-z.com/accountsweb/account/login.do">
+                            <div class="application-icon">
+                                <img src="/images/Learning-A-Z.svg" />
+                            </div>
+                            <span>Raz Kids</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.storylineonline.net/">
+                            <div class="application-icon">
+                                <img src="/images/Storyline.png" />
+                            </div>
+                            <span>Storyline Online</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.uniteforliteracy.com/">
+                            <div class="application-icon">
+                                <img src="/images/unite.svg" />
+                            </div>
+                            <span>Unite for Literacy</span>
+                        </a>
+                    </div>
+                </div>
+
+                <h3>Mathematics</h3>
+                <div class="row application-icons">
+                    <div class="col s4 m2 l1">
+                        <a href="https://clever.com/oauth/instant-login?client_id=31d05a509bcc6b8fb5c8&district_id=54fdddac477dea0100000079">
+                            <div class="application-icon">
+                                <img src="/images/service-happynumberstrans.svg" />
+                            </div>
+                            <span>Happy Numbers</span>
+                        </a>
+                    </div>                  
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.khanacademy.org/">
+                            <div class="application-icon">
+                                <img src="/images/khanacademy.svg" />
+                            </div>
+                            <span>Khan Academy</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://clever.com/oauth/instant-login?client_id=fc0f218d5be5144d7222&district_id=54fdddac477dea0100000079">
+                            <div class="application-icon">
+                                <img src="/images/service-mathletics.svg" />
+                            </div>
+                            <span>Mathletics</span>
+                        </a>
+                    </div>                  
+                    <div class="col s4 m2 l1">
+                        <a href="https://etr.mathology.ca/">
+                            <div class="application-icon">
+                                <img src="/images/mathology.svg" />
+                            </div>
+                            <span>Mathology</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.mathup.ca/Account/Login?ReturnUrl=%2F/ui/">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/mathup.svg" />
+                            </div>
+                            <span>MathUp</span>
+                        </a>
+                    </div>
+                </div>
+                <h3>Tools and Resources</h3>
+                <div class="row application-icons">
+                    <div class="col s4 m2 l1">
+                        <a href="https://ca.badgr.com/auth/login">
+                            <div class="application-icon">
+                                <img src="/images/badgr.svg" />
+                            </div>
+                            <span>Badgr</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.brainpop.com/">
+                            <div class="application-icon">
+                                <img src="/images/BrainPop.png" />
+                            </div>
+                            <span>Brain POP</span>
+                        </a>
+                    </div>
+
+                    <div class="col s4 m2 l1">
+                        <a href="https://school.eb.com/levels">
+                            <div class="application-icon">
+                                <img src="/images/encyclopediabritannica.png" />
+                            </div>
+                            <span>Encyclopedia Britannica</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.thecanadianencyclopedia.ca/en">
+                            <div class="application-icon">
+                                <img src="/images/canadianencyclopedia.png" />
+                            </div>
+                            <span>Canadian Encyclopedia</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://www.cangeoeducation.ca/">
+                            <div class="application-icon">
+                                <img src="/images/canadiangeographic.png" />
+                            </div>
+                            <span>Canadian Geographic Education</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://www.cangeoeducation.ca/kids">
+                            <div class="application-icon">
+                                <img src="/images/canadiangeographickids.png" />
+                            </div>
+                            <span>Canadian Geographic Education Kids</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://search.proquest.com/canadiannewsmajor?accountid=44331">
+                            <div class="application-icon">
+                                <img src="/images/Canadianmajordailies.png" />
+                            </div>
+                            <span>Canadian Major Dailies</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://curio.ca/en/">
+                            <div class="application-icon">
+                                <img src="/images/cbc.svg" />
+                            </div>
+                            <span>CBC Curio</span>
+                        </a>
+                    </div>    
+                    <div class="col s4 m2 l1">
+                        <a href="http://external.edonline.sk.ca/public/school_access.html?url=http://search.ebscohost.com/login.aspx?profile=pov-can">
+                            <div class="application-icon">
+                                <img src="/images/Canadianpointsofview.png" />
+                            </div>
+                            <span>Canadian Points of View</span>
+                        </a>
+                    </div>               
+                    <div class="col s4 m2 l1">
+                        <a href="https://pantheon.org/">
+                            <div class="application-icon">
+                                <img src="/images/encyclopediamythica.png" />
+                            </div>
+                            <span>Encyclopedia Mythica</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.exploringbytheseat.com/">
+                            <div class="application-icon">
+                                <img src="/images/exploringbytheseatofyourpants.png" />
+                            </div>
+                            <span>Exploring By The Seat of Your Pants</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://external.edonline.sk.ca/public/school_access.html?url=http://infotrac.galegroup.com/itweb/saskplschools?db=ITKE">
+                            <div class="application-icon">
+                                <img src="/images/galekidsinfobits.png" />
+                            </div>
+                            <span>Gale Kids Infobits</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://external.edonline.sk.ca/public/school_access.html?url=http://infotrac.galegroup.com/itweb/saskplschools">
+                            <div class="application-icon">
+                                <img src="/images/galepowersearch.png" />
+                            </div>
+                            <span>Gale Powersearch</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://link.gale.com/apps/GIC?u=livingsky1">
+                            <div class="application-icon">
+                                <img src="/images/globalissuesincontext.png" />
+                            </div>
+                            <span>Global Issues in Context</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd-my.sharepoint.com/:w:/g/personal/ruth_weber_lskysd_ca/EaQE71Whw6pGkZQyqurpfVABB8tmB3J4NqMhFo2Jnr_CKQ?e=j241pM">
+                            <div class="application-icon">
+                                <img src="/images/Mathlinksbook2.png" />
+                            </div>
+                            <span>Karen Campbell's Math Resources</span>
+                        </a>
+                    </div>                 
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.khanacademy.org/">
+                            <div class="application-icon">
+                                <img src="/images/khanacademy.svg" />
+                            </div>
+                            <span>Khan Academy</span>
+                        </a>
+                    </div>                  
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.nfb.ca/transaction/institutional-subscription/authorisation/?institution=162191">
+                            <div class="application-icon">
+                                <img src="/images/NFB.svg" />
+                            </div>
+                            <span>National Film Board</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://search.ebscohost.com/login.aspx?authtype=ip%2ccpid&profile=novpk8">
+                            <div class="application-icon">
+                                <img src="/images/Novelist.png" />
+                            </div>
+                            <span>Novelist</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://letstalkscience.ca/hands-on-activities">
+                            <div class="application-icon">
+                                <img src="/images/letstalkscience.png" />
+                            </div>
+                            <span>Let's Talk Science</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://www.pebblego.com/login/?sqs=b95c570a2a95e8aa4601b8b41d72db67ae827228d1cbeff38a37611cbc6a2756/">
+                            <div class="application-icon">
+                                <img src="/images/pebblego.svg" />
+                            </div>
+                            <span>PebbleGo</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.pkearthandspace.com/login?username=livingsky&password=livingsky">
+                            <div class="application-icon">
+                                <img src="/images/PKEarthSpaceScience.png" />
+                            </div>
+                            <span>PK Earth, Science, Space</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.pkphysicalscience.com/login?username=livingsky&password=livingsky">
+                            <div class="application-icon">
+                                <img src="/images/PKPhysicalScience.png" />
+                            </div>
+                            <span>PK Physical Science</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://pklifescience.com/login?username=livingsky&password=livingsky">
+                            <div class="application-icon">
+                                <img src="/images/PKLifeScience.png" />
+                            </div>
+                            <span>PK Life Science</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://rover.edonline.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/ROVER.svg" />
+                            </div>
+                            <span>ROVER</span>
+                        </a>
+                    </div>                  
+                    <div class="col s4 m2 l1">
+                        <a href="https://app.screencastify.com/signin?returnUrl=%2Faccount%2Fsubscription">
+                            <div class="application-icon">
+                                <img src="/images/screencastify.svg" />
+                            </div>
+                            <span>Screencastify</span>
+                        </a>
+                    </div>              
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.smore.com/cgswj-come-to-our-class">
+                            <div class="application-icon">
+                                <img src="/images/service-smore.svg" />
+                            </div>
+                            <span>Smore Newsletters</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://ed.ted.com/">
+                            <div class="application-icon">
+                                <img src="/images/service-cib-ted.svg" />
+                            </div>
+                            <span>TED Ed</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://enroute.aircanada.com/en/article/virtual-field-trips">
+                            <div class="application-icon">
+                                <img src="/images/enroute.png" />
+                            </div>
+                            <span>Virtual Field Trips</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="http://www.virtualmuseum.ca/home/">
+                            <div class="application-icon">
+                                <img src="/images/virtualmuseumcanada.png" />
+                            </div>
+                            <span>Virtual Museum of Canada</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://wonderopolis.org/">
+                            <div class="application-icon">
+                                <img src="/images/Wonderopolis.png" />
+                            </div>
+                            <span>Wonderopolis</span>
+                        </a>
+                    </div>
+
+            </div>
+        </main>
+    </div>
+</section>
