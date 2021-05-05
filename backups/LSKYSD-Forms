@@ -1,0 +1,220 @@
+<div class="container sidebar-flex">
+    <div class="sidebar pad-side-20">
+    <nav>
+      <ul>
+        <li><a href="/about">About Us</a></li>		  
+        <li><a href="/board-of-education">Board of Education</a></li>
+		<li><a href="/forms">Forms</a></li>
+        <li><a href="/history">Our History</a></li>
+		<li><a href="/procedures">Procedures</a></li>
+		<li><a href="/rfp">RFP / Tender Requests</a></li>
+		<li><a href="/staff-directory">Staff Directory</a></li>
+		<li><a href="/superintendents">Superintendents</a></li>
+        <li><a href="/vision">Our Vision and Mission</a></li>
+       </ul>
+    </nav>
+  </div>
+  <div class="content pad-side-20">
+	
+	  
+
+<div class="content pad-side-20">
+   <h1>Forms</h1>
+   <h3>Please return all forms to <a href="mailto:reception@lskysd.ca.">reception@lskysd.ca.</a></h3>
+   <p><strong>(Forms are being updated to reflect the change)</strong></p>
+   {{#equal Account.IsStaff true}}
+	<h2>​​​​​Accounting</h2>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/CashTallySheet.xlsx">Cash Tally Sheet</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/DistanceChartRoundtrip.pdf">Distance Chart Roundtrip 2020 10</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/GeneralTravelExpenseOct12020.xls">General Travel - Expense Claim October 1, 2020</a> (use to claim expenses incurred between October 1, 2020 and March 31, 2021)</li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/GeneralTravelExpenseApril12021.xls">General Travel – Expense Claim April 1, 2021</a> (use to claim expenses incurred between April 1 and September 30 , 2021)</li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/FundRemittanceForm.xlsx">Fund Remittance Form</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/GeneralVoucher.xlsx">General Voucher</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/JournalEntryRequest.xls">Journal Entry Request</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/PettyCashReconciliation.doc">Petty Cash Reconciliation</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/PettyCashVoucher.doc">Petty Cash Voucher</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/PrivateVehicleTravelClaim.xls">Private Vehicle Travel Claim - School Events</a></li>
+   </ul>
+	{{/equal}}
+   <h2>Administration</h2>
+   <p><strong>See Applicable Procedures for forms</strong></p>
+   {{#equal Account.IsStaff true}}
+   <p><a href="https://public.lskysd.ca/files/OFFICE/Procedures/5-HUMANRESOURCES/516AAnnualProfessionalLearningPlanForm.pdf">5.16A - Annual Professional Learning Plan Form</a></p>
+   {{/equal}}
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/LiaisonWorkerMonthlySummary.doc">Liaison Worker Monthly Summary</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/LiaisonWorkerWeeklySummary.doc">Liaison Worker Weekly Summary</a></li>     
+    {{#equal Account.IsStaff true}}
+	  <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/AdministrationofMedicalProcedure.docx">Administration of Medical Procedure</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/AdministrationofMedication.docx">Administration of Medication</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/DistanceLearningRegistrationForm.doc">Distance Learning Registration Form</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/DistanceLearningRegistrationOutsideLSSD.docx">Distance Learning Registration (for classes outside the division) 6.11A - Distance and Blended Learning Courses</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/NoonHourSupervisionNonTeachingStaff.doc">Noon Hour Supervision - Non-Teaching Staff</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/NoonHourSupervisionTeachingStaff.doc">Noon Hour Supervision - Teaching Staff</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SupervisoryLeaveDaysLogSheetSupport.docx">Supervisory Leave Days Log Sheet (Support)</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SupervisoryLeaveDaysLogSheetTeacher.docx">Supervisory Leave Days Log Sheet (Teacher)</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SaskatchewanPhysicalEducationSafetyGuidelines.pdf">Saskatchewan Physical Education Safety Guidelines</a></li>
+    {{/equal}}
+   </ul>
+   <p>INSURANCE FORMS:</p>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/BlanketStudentAccidentClaimsInformationSheet.pdf">Blanket Student Accident Claims Information Sheet (with Physician's Statement)</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/BlanketStudentAccidentInsuranceBrochure.pdf">Blanket Student Accident Insurance Brochure</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ClaimsProcessSummary.doc">Claims Process Summary</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SchoolIncidentReportFormBrochure.pdf">School Incident Report Form Brochure</a></li>
+    {{#equal Account.IsStaff true}} 
+	  <li><a href="https://www.opticrisk.com/SSBA/forms/AccidentIntake.aspx">School Incident Reporting</a></li>
+      <li><a href="https://www.opticrisk.com/SSBA/forms/intake.aspx">General Claims</a></li>
+    {{/equal}}
+   </ul>
+   <p><strong>START OF SCHOOL YEAR FORMS:</strong></p>
+    {{#equal Account.IsStaff true}} 
+   <p>Refer to Leader's Ledger - September To Do List</p>
+    {{/equal}}
+   <ul>
+     {{#equal Account.IsStaff true}}
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ConfidentialAboriginalSelfDeclarationForm.docx">Confidential Aboriginal Self-Declaration Form</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SelfDeclarationBrochure.pdf">Self Declaration Brochure</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SelfDeclarationOverview.pdf">Self-Declaration Overview</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/PartTimeTeacherWorkSchedule2021.doc">Part-time Teacher Work Schedule 2020-2021</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SupportStaffWorkSchedule2021.doc">Support Staff Work Schedule 2020-2021</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/2021BlockCalendar10Month.docx">2020-2021 Block Calendar 10 Month</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/TeacherTimetable20202021.doc">Teacher Timetable 2020-2021</a></li>
+     {{/equal}}
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/VTRAFairNoticeLetter.pdf">VTRA Fair Notice Letter</a></li>
+   </ul>
+     {{#equal Account.IsStaff true}}
+   <p><strong>END OF SCHOOL YEAR END FORMS:</strong></p>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ChecklistYearEnd2020.docx">Checklist Year End 2020</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SLDTeacherYearEndPayout2020.doc">SLD Teacher Year End Payout 2020</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SLDSupportStaffYearEndPayout2020.doc">SLD Support Staff Year End Payout 2020</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/BankedTimeSupportStaffYearEndPayout2020.doc">Banked Time Support Staff Year End Payout 2020&nbsp;</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ChangeofInformation.docx">Change of Information</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ElementaryInstructionalTime2021.doc">Elementary Instructional Time 2020-2021</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/HighSchoolInstructionalTime2021.doc">High School Instructional Time 2020-2021</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/PartTimeTeacherWorkSchedule2021.doc">Part-time Teacher Work Schedule 2020-2021</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SupportStaffWorkSchedule2021.doc">Support Staff Work Schedule 2020-2021</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/2021BlockCalendar10Month.docx">2020-2021 Block Calendar 10 Month</a></li>
+   </ul>
+   <p>VIOLENCE THREAT RISK ASSESSMENT (VTRA) FORMS:</p>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ConsentfortheReleaseofConfidentialInformation.docx">Consent for the Release of Confidential Information</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/RespondingtoStudentThreatMakingBehaviourASchoolGuide.docx">Responding to Student Threat Making Behaviour A School Guide</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/Stage1ThreatAssessmentDebriefing.docx">Stage 1 Threat Assessment Debriefing</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/VTRACaseSpecificDataandIntervention.docx">VTRA Case Specific Data and Intervention</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/VTRACUMFileNotification.docx">VTRA CUM File Notification</a></li>
+   </ul>
+     {{/equal}}
+   <h2>Facilities</h2>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ApplicationforSchoolFacilities.pdf">Application for School Facilities</a></li>
+   </ul>
+     {{#equal Account.IsStaff true}}
+   <h2>Human Resources</h2>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/AttendanceSupportProgram.pdf">Attendance Support Program</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/CopyofBursaryApplication.xls">Copy of Bursary Application</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/CUPELINCSTFResponsibilityLeave.doc">CUPE LINC STF Responsibility Leave</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/Form7lVerificationofSickness.pdf">Form 7-I Verification of Sickness</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/LeaveRequestFormLINC.doc">Leave Request Form - LINC</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/LeaveRequestFormNonTeacher.doc">Leave Request Form - Non Teacher</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/NoonSupervisionapp.doc">Noon Supervision APP</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ProfessionalDevelopmentForm.doc">Professional Development Form - (Note: Approval from Director required for all Out-of-Province PD)</a></li>
+   </ul>
+   <p>EMPLOYEE APPRAISALS:</p>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/CaretakerChecklist.doc">Caretaker Checklist</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/CaretakerAppraisal.doc">Caretaker Appraisal</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/EAAppraisal.doc">EA Appraisal</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/KitchenAppraisal.doc">Kitchen Appraisal</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/LiaisonWorkerAppraisal.doc">Liaison Worker Appraisal</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/LibraryTechnicianAssistantAppraisal.doc">Library Technician/Assistant Appraisal</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/OutofScopeEmployeeAppraisal.doc">Out of Scope Employee Appraisal</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SecretaryAppraisal.doc">Secretary Appraisal</a></li>
+   </ul>
+   <h2>Information Communication Services (Technology)</h2>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/DataDisclosureStatement.docx">Data Disclosure Statement</a></li>
+   </ul>
+   <h2>Payroll</h2>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ChangeofInformation.docx">Change of Information</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/DispatchLogSheetSupport.doc">Dispatch Log Sheet - Support</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/DispatchLogSheetTeacher.doc">Dispatch Log Sheet - Teacher</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SalaryPaymentOptionChange.doc">Salary Payment Option Change</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SupportStaffBankedTime.doc">Support Staff Banked Time</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/TaxFormTD12021.pdf">Tax Form TD1 2021</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/TaxFormTD1SK2021.pdf">Tax Form TD1SK 2021</a></li>
+   </ul>
+   <p>SUPPORT STAFF:</p>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/EmployeeWorkersCompensationReport.pdf">Employee Workers Compensation Report</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/MEPPDesignationofBeneficiary.pdf">MEPP Designation of Beneficiary</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SupplementalEmploymentBenefitsPlanNonTeachers.doc">Supplemental Employment Benefits Plan - Non Teachers</a></li>
+   </ul>
+   <p>TEACHERS:</p>
+   <ul>
+      <li><a href="https://sso.stf.sk.ca/OAMWebApp/login.jsp?contextType=external&amp;username=string&amp;OverrideRetryLimit=0&amp;password=secure_string&amp;challenge_url=https://sso.stf.sk.ca/OAMWebApp/login.jsp&amp;request_id=8441305926158754772&amp;authn_try_count=0&amp;locale=en_US&amp;resource_url=http%253A%252F%252Fwww.stf.sk.ca%252Fmystf%252Fmy-profile%252Fprofile-management">Change of Information - STF</a></li>
+      <li><a href="http://www.stsc.gov.sk.ca/group/index.shtml">Group Life Insurance Enrolment</a></li>
+      <li><a href="https://www.stf.sk.ca/sites/default/files/mhp_health_benefits_information.pdf">STF Health Plan Booklet</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/STFEnrolmentForm.pdf">STF Enrolment Form</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/TriWestFeeDeductionForm.pdf">Tri-West Fee Deduction Form</a></li>
+	  <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/TeacherSchoolSupplyTaxCredit.docx">Teacher School Supply Tax credit guidelines and form</a></li>
+   </ul>
+   <h2>Programs and Curriculum</h2>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/CourseChallenge.pdf">Course Challenge</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/PhysicalActivitiesSafety.pdf">Physical Activities Safety</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SpecialProjects102030Credits.pdf">Special Projects 10/20/30 Credits</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/StudentExcursionChecklistandApplication.doc">Student Excursion Checklist and Application</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/LivingHistoriesCulturalDirectory.docx">Living Histories Cultural Directory</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/LivingHistoriesRequestFormandProtocols.docx">Living Histories Request Form and Protocols</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SelfDeclarationBrochure.pdf">Self Declaration Brochure</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SmudgeGuidelines.docx">Smudge Guidelines</a></li>
+   </ul>
+   <p>CAREER DEVELOPMENT:</p>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/JobShadowAgreement.pdf">Job Shadow Agreement</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/JobShadowBusinessParticipation.pdf">Job Shadow Business Participation</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/JobShadowReporting.pdf">Job Shadow Reporting</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SampleJobShadowFax.pdf">Sample Job Shadow Fax</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SampleJobShadowLetter.pdf">Sample Job Shadow Letter</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/WorkEducationAgreement.doc">Work Education Agreement</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/WorkbasedLearningConsentandWaiverofLiabilityForm.doc">Workbased Learning Consent and Waiver of Liability Form</a></li>
+   </ul>
+     {{/equal}}
+   <h2>Student Services</h2>
+   <ul>
+      <li><a href="http://www.education.gov.sk.ca/IntensiveSupports">Saskatchewan Government Education</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SocialServicesDutytoReport.xlsm">Social Services Duty to Report</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/PsychStudentCaseHistoryForm.pdf">Psych - Student Case History Form</a></li>
+     {{#equal Account.IsStaff true}}
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SchoolSupportStaffVehicleExpenseClaim.pdf">School Support Staff Vehicle Expense Claim</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/StudentServicesHandbook.pdf">Student Services Handbook</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/ReleaseofInformation.pdf">Release of Information</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/SFIProcess.pdf">SFI Process</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/PsychObservationForm.doc">Psych - Observation Form</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/PsychStudentDataForm.pdf">Psych - Student Data Form</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/EmergencyCareResponsePlan.docx">Emergency Care Response Plan</a></li>
+     {{/equal}}
+   </ul>
+   <h2>Transportation</h2>
+   <ul>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/UrbanTransportationRequest.xlsx">Urban Transportation Request</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/RuralTransportationRequest.xlsx">Rural Transportation Request</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/GuestRiderPermissionForm.docx">Guest Rider Permission Form</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/AllowanceinLieuofConveyance.doc">Allowance in Lieu of Conveyance</a></li>
+     {{#equal Account.IsStaff true}}
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/TransportationExpenseClaimReport.doc">Transportation Expense Claim Report</a></li>
+      <li><a href="https://public.lskysd.ca/files/OFFICE/Forms/UseofPrivateVehicle.doc">Use of Private Vehicle</a></li>
+     {{/equal}}
+   </ul>
+</div>
+</div>
+
+
+	
+  </div><!-- end page content -->
+</div>
