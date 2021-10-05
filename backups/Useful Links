@@ -1,3 +1,19 @@
+<style>
+    .application-icon img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+h3 {margin-bottom: 16px;}
+
+.application-icons span{
+    margin-top:10px;
+    font-size: 1rem;
+}
+
+</style>
+
 <section>
     <div class="container pad-side">
         <main>
@@ -66,6 +82,14 @@
                                 <img src="/images/service-moodle.svg" />
                             </div>
                             <span>Moodle</span>
+                        </a>
+                    </div>     
+                    <div class="col s4 m2 l1">
+                        <a href="https://mss.lskysd.ca/">
+                            <div class="application-icon">
+                                <img src="/images/mss.svg" />
+                            </div>
+                            <span>MySchoolSask</span>
                         </a>
                     </div>
                     <div class="col s4 m2 l1">
@@ -165,6 +189,30 @@
                                 <img src="https://www.livingskysd.ca/images/logo.svg" />
                             </div>
                             <span>Procedures</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.livingskysd.ca/docalendarlist">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>LSKYSD Operational Calendar</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.livingskysd.ca/ts-connecting-thebasics">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/logo.svg" />
+                            </div>
+                            <span>Teacher Supports</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://sites.google.com/lskysd.ca/lssd-blended/home">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/LSSDBlended2.png" />
+                            </div>
+                            <span>LSSD Blended</span>
                         </a>
                     </div>
         </div>  
@@ -451,7 +499,7 @@
                         </a>
                     </div>
                     <div class="col s4 m2 l1">
-                        <a href="https://lskysd.sharepoint.com/sites/DivisionOffice">
+                        <a href="https://bookings.lskysd.ca">
                             <div class="application-icon">
                                 <img src="/images/logo.svg" />
                             </div>
@@ -530,7 +578,7 @@
                         </a>
                     </div>
                     <div class="col s4 m2 l1">
-                        <a href="https://luselandl4u.lskysd.ca">
+                        <a href="https://macklinl4u.lskysd.ca">
                             <div class="application-icon">
                                 <img src="/images/1.png" />
                             </div>
@@ -538,11 +586,11 @@
                         </a>
                     </div>
                     <div class="col s4 m2 l1">
-                        <a href="https://www.wheatland.sk.ca/">
+                        <a href="https://lakelandlibrary.ca/">
                             <div class="application-icon">
-                                <img src="/images/Wheatland.png" />
+                                <img src="/images/Lakeland.png" />
                             </div>
-                            <span>Wheatland Regional Library</span>
+                            <span>Lakeland Regional Library</span>
                         </a>
                     </div>
                 </div>
@@ -674,7 +722,7 @@
                         </a>
                     </div>
                     <div class="col s4 m2 l1">
-                        <a href="https://ncesl4u.lskysd.ca">
+                        <a href="https://ncl4u.lskysd.ca/4dcgi/gen_2002/Lang=Def">
                             <div class="application-icon">
                                 <img src="/images/1.png" />
                             </div>
@@ -835,6 +883,30 @@
                             <span>Wheatland Regional Library</span>
                         </a>
                     </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://public.lskysd.ca/files/UCHS/UCHS_Bell_Scheudle_2021-22.docx">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>UCHS Bell Schedule</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://public.lskysd.ca/files/UCHS/UCHS_Student_Handbook_2021-2022.docx">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>UCHS Student Handbook 2021-2022</span>
+                        </a>
+                    </div>                
+                    <div class="col s4 m2 l1">
+                        <a href="https://public.lskysd.ca/files/UCHS/2021-22_Block_Calendar.docx">
+                            <div class="application-icon">
+                                <img src="/images/1.png" />
+                            </div>
+                            <span>UCHS Block Calendar 2021-2022</span>
+                        </a>
+                    </div>                  
                 </div>
             {{/equal}}
             {{#equal Site.name "Unity Public School"}}
@@ -1249,6 +1321,24 @@
                             <span>Curriculum Connections</span>
                         </a>
                     </div>                    
+
+                    <div class="col s4 m2 l1">
+                        <a href="https://www.edonline.sk.ca/">
+                            <div class="application-icon">
+                                <img src="/images/edonline.PNG" />
+                            </div>
+                            <span>Blackboard Learn</span>
+                        </a>
+                    </div>                    
+                    
+                    <div class="col s4 m2 l1">
+                        <a href="https://app.glassfrog.com/people/sso">
+                            <div class="application-icon">
+                                <img src="/images/zwaqcorvv2wdtfopco4v.svg" />
+                            </div>
+                            <span>Glassfrog</span>
+                        </a>
+                    </div>                    
                     <div class="col s4 m2 l1">
                         <a href="https://guest.lskysd.ca">
                             <div class="application-icon">
@@ -1279,6 +1369,14 @@
                                 <img src="/images/service-odt.svg" />
                             </div>
                             <span>ODT Webportal</span>
+                        </a>
+                    </div>    
+                    <div class="col s4 m2 l1">
+                        <a href="https://mss.lskysd.ca/">
+                            <div class="application-icon">
+                                <img src="/images/mss.svg" />
+                            </div>
+                            <span>MySchoolSask</span>
                         </a>
                     </div>
                     <div class="col s4 m2 l1">
@@ -1336,7 +1434,7 @@
                             </div>
                             <span>Wide Open Schools</span>
                         </a>
-                    </div>
+                    </div>       
 
                 </div>
 
@@ -1523,11 +1621,19 @@
                         </a>
                     </div>                      
                     <div class="col s4 m2 l1">
-                        <a href="https://accounts.learninga-z.com/accountsweb/account/login.do">
+                        <a href="https://www.raz-plus.com">
                             <div class="application-icon">
-                                <img src="/images/Learning-A-Z.svg" />
+                                <img src="/images/razkids.png" />
                             </div>
                             <span>Raz Kids</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://bookwizard.scholastic.com/">
+                            <div class="application-icon">
+                                <img src="/images/BookWizard.png" />
+                            </div>
+                            <span>Scholastic Book Wizard</span>
                         </a>
                     </div>
                     <div class="col s4 m2 l1">
@@ -1583,11 +1689,19 @@
                         </a>
                     </div>
                     <div class="col s4 m2 l1">
-                        <a href="https://www.mathup.ca/Account/Login?ReturnUrl=%2F/ui/">
+                        <a href="https://nat.mathup.ca/">
                             <div class="application-icon">
-                                <img src="https://www.livingskysd.ca/images/mathup.svg" />
+                                <img src="https://www.livingskysd.ca/images/MathLogo_sm.jpg" />
                             </div>
                             <span>MathUp</span>
+                        </a>
+                    </div>
+                    <div class="col s4 m2 l1">
+                        <a href="https://lskysd.sharepoint.com/sites/CurriculumAndInstruction/Math%20Resources/Forms/AllItems.aspx?newTargetListUrl=%2Fsites%2FCurriculumAndInstruction%2FMath%20Resources&viewpath=%2Fsites%2FCurriculumAndInstruction%2FMath%20Resources%2FForms%2FAllItems%2Easpx&viewid=2dbc8ef5%2D55c2%2D4dbe%2D8e95%2D845713687f9a&id=%2Fsites%2FCurriculumAndInstruction%2FMath%20Resources%2FKaren%20Campbell%27s%20Math%20Resources">
+                            <div class="application-icon">
+                                <img src="https://www.livingskysd.ca/images/Mathlinksbook2.png" />
+                            </div>
+                            <span>Karen Campbell's Math Resources</span>
                         </a>
                     </div>
                 </div>
@@ -1705,15 +1819,7 @@
                             </div>
                             <span>Global Issues in Context</span>
                         </a>
-                    </div>
-                    <div class="col s4 m2 l1">
-                        <a href="https://lskysd-my.sharepoint.com/:w:/g/personal/ruth_weber_lskysd_ca/EaQE71Whw6pGkZQyqurpfVABB8tmB3J4NqMhFo2Jnr_CKQ?e=j241pM">
-                            <div class="application-icon">
-                                <img src="/images/Mathlinksbook2.png" />
-                            </div>
-                            <span>Karen Campbell's Math Resources</span>
-                        </a>
-                    </div>                 
+                    </div>             
                     <div class="col s4 m2 l1">
                         <a href="https://www.khanacademy.org/">
                             <div class="application-icon">
