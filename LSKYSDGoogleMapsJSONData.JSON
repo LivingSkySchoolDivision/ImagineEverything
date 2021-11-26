@@ -32,7 +32,7 @@
             "Url": "nces.livingskysd.ca",
             "Tags": ["All LSKYSD Schools", "Wilkie", "Elementary", "Norman Carter School", "NCES"],
             "Contacts": [
-                { "Label": "Principal", "Name": "Brian Hargreaves", "SortOrder": 1 }
+                { "Label": "Principal", "Name": "Jim Shevchuk", "SortOrder": 1 }
             ]
         },
         {
@@ -280,7 +280,7 @@
             "Tags": ["All LSKYSD Schools", "North Battleford", "Elementary", "Bready"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Rhonda Simon", "SortOrder": 1 }, 
-                { "Label": "Vice Principal", "Name": "Kim Cottini", "SortOrder": 2 }
+                { "Label": "Vice Principal", "Name": "Brian Hargreaves", "SortOrder": 2 }
             ]
         },
         {
@@ -349,7 +349,7 @@
             "Url": "maymont.livingskysd.ca",
             "Tags": ["All LSKYSD Schools", "Maymont", "Pre-K", "High School", "Elementary", "Maymont Central School", "MCS"],
             "Contacts": [
-                { "Label": "Principal", "Name": "Bridgette Millen", "SortOrder": 1 }
+                { "Label": "Principal", "Name": "Kim Cottini", "SortOrder": 1 }
             ]
         },
         {
@@ -418,7 +418,7 @@
             "Tags": ["All LSKYSD Schools", "Spiritwood", "SHS", "Spiritwood High School", "High School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Susan Fry", "SortOrder": 1 }, 
-                { "Label": "Vice Principal", "Name": "Sandy Emke-Kish", "SortOrder": 2 }
+                { "Label": "Vice Principal", "Name": "Scott Haggarty", "SortOrder": 2 }
             ]
         },
         {
