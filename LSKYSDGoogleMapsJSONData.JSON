@@ -186,7 +186,7 @@
             "Phone": "306-445-4944",
             "Email": "lawrence@lskysd.ca",
             "Grades": "PK-6",
-            "Url": "lawerence.livingskysd.ca",
+            "Url": "lawrence.livingskysd.ca",
             "Tags": ["All LSKYSD Schools", "North Battleford", "Elementary", "Pre-K", "Lawrence", "Lawrence Elementary School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Christine Gibson", "SortOrder": 1 }, 
@@ -222,7 +222,7 @@
             "Phone": "3063424600",
             "Email": "meadstead@lskysd.ca",
             "Grades": "K-12",
-            "Url": "meadstead.livingskysd.ca",
+            "Url": "medstead.livingskysd.ca",
             "Tags": ["All LSKYSD Schools", "Medstead", "High School", "Elementary", "Medstead Central SChool"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Greg knot", "SortOrder": 1 }, 
@@ -381,7 +381,6 @@
             "Phone": "306-247-4800",
             "Email": "scott@lskysd.ca",
             "Grades": "K-9",
-            "Url": "scott.livingskysd.ca",
             "Tags": ["All LSKYSD Schools", "Unity", "Elementary", "Scott Colony School"],
             "Contacts": [
                 { "Label": "Principal", "Name": "Janette Huber", "SortOrder": 1 }
@@ -499,7 +498,7 @@
             "PostalCode": "S9A 4A5",
             "Phone": "306-937-7702",
             "Email": "office@lskysd.ca",
-            "Url": "livingskysd.ca",
+            "Url": "https://www.livingskysd.ca",
             "Tags": ["LSSD", "LSKYSD", "Division Office", "Office"]
         }
     ]
